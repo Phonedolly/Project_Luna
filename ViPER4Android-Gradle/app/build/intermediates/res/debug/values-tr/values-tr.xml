@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/최요한/ViPER4Android-Gradle/app/src/main/res/values-tr/arrays.xml -->
+    <eat-comment/>
+    <string-array name="amplification_db">
+        <item>0 dB</item>
+        <item>3.5 dB</item>
+        <item>6.0 dB</item>
+        <item>9.5 dB</item>
+        <item>12.0 dB</item>
+        <item>14.0 dB</item>
+        <item>18.0 dB</item>
+        <item>20.0 dB</item>
+    </string-array>
+    <string-array name="amplification_db_values">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="channel_pan">
+        <item>1.0 : 0.0</item>
+        <item>0.9 : 0.1</item>
+        <item>0.8 : 0.2</item>
+        <item>0.7 : 0.3</item>
+        <item>0.6 : 0.4</item>
+        <item>0.5 : 0.5</item>
+        <item>0.4 : 0.6</item>
+        <item>0.3 : 0.7</item>
+        <item>0.2 : 0.8</item>
+        <item>0.1 : 0.9</item>
+        <item>0.0 : 1.0</item>
+    </string-array>
+    <string-array name="channel_pan_values">
+        <item>-100</item>
+        <item>-80</item>
+        <item>-60</item>
+        <item>-40</item>
+        <item>-20</item>
+        <item>0</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="colorfulmusic_coeffs">
+        <item>Az</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+        <item>Level 6</item>
+        <item>Level 7</item>
+        <item>Aşırı</item>
+    </string-array>
+    <string-array name="colorfulmusic_coeffs_values">
+        <item>120;200</item>
+        <item>130;275</item>
+        <item>140;350</item>
+        <item>150;425</item>
+        <item>160;500</item>
+        <item>170;575</item>
+        <item>180;650</item>
+        <item>190;725</item>
+        <item>200;800</item>
+    </string-array>
+    <string-array name="colorfulmusic_midimage">
+        <item>Az</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+        <item>Level 6</item>
+        <item>Level 7</item>
+        <item>Level 8</item>
+        <item>Level 9</item>
+        <item>Aşırı</item>
+    </string-array>
+    <string-array name="colorfulmusic_midimage_values">
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>150</item>
+        <item>160</item>
+        <item>170</item>
+        <item>180</item>
+        <item>190</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="compatible_mode">
+        <item>Normal</item>
+        <item>Uyumlu</item>
+    </string-array>
+    <string-array name="compatible_mode_values">
+        <item>global</item>
+        <item>local</item>
+    </string-array>
+    <string-array name="conv_cross_channel">
+        <item>Yüzde 0</item>
+        <item>Yüzde 5</item>
+        <item>Yüzde 10</item>
+        <item>Yüzde 15</item>
+        <item>Yüzde 20</item>
+        <item>Yüzde 25</item>
+        <item>Yüzde 30</item>
+        <item>Yüzde 35</item>
+        <item>Yüzde 40</item>
+        <item>Yüzde 45</item>
+        <item>Yüzde 50</item>
+        <item>Yüzde 55</item>
+        <item>Yüzde 60</item>
+        <item>Yüzde 70</item>
+        <item>Yüzde 80</item>
+    </string-array>
+    <string-array name="conv_cross_channel_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+    </string-array>
+    <string-array name="cure_crossfeed">
+        <item>Az</item>
+        <item>Orta</item>
+        <item>Aşırı</item>
+    </string-array>
+    <string-array name="cure_crossfeed_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="diffsurround_delay">
+        <item>2 ms</item>
+        <item>5 ms</item>
+        <item>8 ms</item>
+        <item>10 ms</item>
+        <item>12 ms</item>
+        <item>14 ms</item>
+        <item>16 ms</item>
+        <item>18 ms</item>
+        <item>20 ms</item>
+    </string-array>
+    <string-array name="diffsurround_delay_values">
+        <item>200</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1200</item>
+        <item>1400</item>
+        <item>1600</item>
+        <item>1800</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="drvinst_prefer">
+        <item>Süper Ses Kalitesi</item>
+        <item>Yüksek Ses Kalitesi</item>
+        <item>Güç Tasarrufu</item>
+    </string-array>
+    <string-array name="drvinst_prefer_values">
+        <item>sq</item>
+        <item>hq</item>
+        <item>lq</item>
+    </string-array>
+    <string-array name="dynamicsystem_bass">
+        <item>Yüzde 0</item>
+        <item>Yüzde 1</item>
+        <item>Yüzde 2</item>
+        <item>Yüzde 3</item>
+        <item>Yüzde 4</item>
+        <item>Yüzde 5</item>
+        <item>Yüzde 6</item>
+        <item>Yüzde 7</item>
+        <item>Yüzde 8</item>
+        <item>Yüzde 9</item>
+        <item>Yüzde 10</item>
+        <item>Yüzde 12</item>
+        <item>Yüzde 14</item>
+        <item>Yüzde 16</item>
+        <item>Yüzde 18</item>
+        <item>Yüzde 20</item>
+        <item>Yüzde 22</item>
+        <item>Yüzde 24</item>
+        <item>Yüzde 26</item>
+        <item>Yüzde 28</item>
+        <item>Yüzde 30</item>
+        <item>Yüzde 33</item>
+        <item>Yüzde 36</item>
+        <item>Yüzde 40</item>
+        <item>Yüzde 45</item>
+        <item>Yüzde 50</item>
+        <item>Yüzde 55</item>
+        <item>Yüzde 60</item>
+        <item>Yüzde 70</item>
+        <item>Yüzde 80</item>
+        <item>Yüzde 90</item>
+        <item>Yüzde 100</item>
+    </string-array>
+    <string-array name="dynamicsystem_bass_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>33</item>
+        <item>36</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="dynamicsystem_outputs">
+        <item>Aşırı İyi Kulaklık (Baş) (v2)</item>
+        <item>High-end Kulaklık (Baş) (v2)</item>
+        <item>Normal Kulaklık (Baş)(v2)</item>
+        <item>Low-end Kulaklık (Baş) (v2)</item>
+        <item>Normal Kulaklık (Kulak) (v2)</item>
+        <item>Aşırı İyi Kulaklık (Baş) (v1)</item>
+        <item>High-end Kulaklık (Baş) (v1)</item>
+        <item>Normal Kulaklık (Baş) (v1)</item>
+        <item>Normal Kulaklık (Kulak) (v1)</item>
+        <item>Apple Kulaklık (Kulak)</item>
+        <item>Monster Kulaklık (Kulak)</item>
+        <item>Moto Kulaklık (Kulak)</item>
+        <item>Philips Kulaklık (Kulak)</item>
+        <item>SHP2000</item>
+        <item>SHP9000</item>
+        <item>Bilinmeyen Tür I</item>
+        <item>Bilinmeyen Tür II</item>
+        <item>Bilinmeyen Tür III</item>
+        <item>Bilinmeyen Tür IV</item>
+    </string-array>
+    <string-array name="dynamicsystem_outputs_values">
+        <item>140;6200;40;60;10;80</item>
+        <item>180;5800;55;80;10;70</item>
+        <item>300;5600;60;105;10;50</item>
+        <item>600;5400;60;105;10;20</item>
+        <item>100;5600;40;80;50;50</item>
+        <item>1200;6200;40;80;0;20</item>
+        <item>1000;6200;40;80;0;10</item>
+        <item>800;6200;40;80;10;0</item>
+        <item>400;6200;40;80;10;0</item>
+        <item>1200;6200;50;90;15;10</item>
+        <item>1000;6200;50;90;30;10</item>
+        <item>1100;6200;60;100;20;0</item>
+        <item>1200;6200;50;100;10;50</item>
+        <item>1200;6200;60;100;0;30</item>
+        <item>1200;6200;40;80;0;30</item>
+        <item>1000;6200;60;100;0;0</item>
+        <item>1000;6200;60;120;0;0</item>
+        <item>1000;6200;80;140;0;0</item>
+        <item>800;6200;80;140;0;0</item>
+    </string-array>
+    <string-array name="equalizer_preset_modes">
+        <item>@string/eq_preset_acoustic</item>
+        <item>@string/eq_preset_bass_booster</item>
+        <item>@string/eq_preset_bass_reducer</item>
+        <item>@string/eq_preset_classical</item>
+        <item>@string/eq_preset_deep</item>
+        <item>@string/eq_preset_flat</item>
+        <item>@string/eq_preset_r_and_b</item>
+        <item>@string/eq_preset_rock</item>
+        <item>@string/eq_preset_small_speakers</item>
+        <item>@string/eq_preset_treble_booster</item>
+        <item>@string/eq_preset_treble_reducer</item>
+        <item>@string/eq_preset_vocal_booster</item>
+        <item>@string/eq_preset_custom</item>
+    </string-array>
+    <string-array name="equalizer_preset_values">
+        <item>4.5;4.5;3.5;1.2;1.0;0.5;1.4;1.75;3.5;2.5;</item>
+        <item>10.0;6.5;4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
+        <item>-10.5;-6.5;-4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
+        <item>4.0;4.0;3.25;1.0;0.0;0.0;-1.0;-0.5;2.0;3.5;</item>
+        <item>4.0;4.0;0.5;0.0;0.0;0.0;0.0;1.5;-4.0;-4.5;</item>
+        <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
+        <item>5.5;5.5;3.5;0.0;0.0;0.0;0.0;-1.75;1.5;2.5;</item>
+        <item>4.5;4.5;2.75;0.0;0.0;0.0;0.0;-0.5;2.75;4.0;</item>
+        <item>6.5;6.5;4.0;0.0;0.0;0.0;0.0;0.0;-6.5;-4.0;</item>
+        <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;4.0;6.5;</item>
+        <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;-6.5;-4.0;</item>
+        <item>-2.5;-2.5;0.0;0.0;0.0;0.0;0.6;3.5;1.5;-2.0;</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="multi_factor">
+        <item>1x</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>6x</item>
+        <item>7x</item>
+        <item>8x</item>
+        <item>9x</item>
+        <item>10x</item>
+        <item>Inf</item>
+    </string-array>
+    <string-array name="multi_factor_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>3000</item>
+    </string-array>
+    <string-array name="output_db">
+        <item>0 dB</item>
+        <item>-1.0 dB</item>
+        <item>-1.9 dB</item>
+        <item>-3.0 dB</item>
+        <item>-6.0 dB</item>
+        <item>-10.5 dB</item>
+    </string-array>
+    <string-array name="output_db_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>50</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="output_volume">
+        <item>6.0 dB</item>
+        <item>5.6 dB</item>
+        <item>5.1 dB</item>
+        <item>4.6 dB</item>
+        <item>4.1 dB</item>
+        <item>3.5 dB</item>
+        <item>2.9 dB</item>
+        <item>2.3 dB</item>
+        <item>1.6 dB</item>
+        <item>0.8 dB</item>
+        <item>0 dB</item>
+        <item>-1.0 dB</item>
+        <item>-1.9 dB</item>
+        <item>-3.0 dB</item>
+        <item>-4.4 dB</item>
+        <item>-6.0 dB</item>
+        <item>-8.0 dB</item>
+        <item>-10.5 dB</item>
+        <item>-14.0 dB</item>
+        <item>-20.0 dB</item>
+        <item>-26.0 dB</item>
+        <item>-40.0 dB</item>
+    </string-array>
+    <string-array name="output_volume_values">
+        <item>200</item>
+        <item>190</item>
+        <item>180</item>
+        <item>170</item>
+        <item>160</item>
+        <item>150</item>
+        <item>140</item>
+        <item>130</item>
+        <item>120</item>
+        <item>110</item>
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="playbackgain_ratio">
+        <item>Az</item>
+        <item>Orta</item>
+        <item>Aşırı</item>
+    </string-array>
+    <string-array name="playbackgain_ratio_values">
+        <item>50</item>
+        <item>100</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="reverb_percent">
+        <item>Yüzde 0</item>
+        <item>Yüzde 10</item>
+        <item>Yüzde 20</item>
+        <item>Yüzde 30</item>
+        <item>Yüzde 40</item>
+        <item>Yüzde 50</item>
+        <item>Yüzde 60</item>
+        <item>Yüzde 70</item>
+        <item>Yüzde 80</item>
+        <item>Yüzde 90</item>
+        <item>Yüzde 100</item>
+    </string-array>
+    <string-array name="reverb_percent_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="reverb_roomsize">
+        <item>25 m2</item>
+        <item>36 m2</item>
+        <item>49 m2</item>
+        <item>64 m2</item>
+        <item>81 m2</item>
+        <item>100 m2</item>
+        <item>121 m2</item>
+        <item>203 m2</item>
+        <item>347 m2</item>
+        <item>652 m2</item>
+        <item>1200 m2</item>
+    </string-array>
+    <string-array name="reverb_roomsize_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="reverb_roomwidth">
+        <item>5 m</item>
+        <item>6 m</item>
+        <item>7 m</item>
+        <item>8 m</item>
+        <item>9 m</item>
+        <item>10 m</item>
+        <item>11 m</item>
+        <item>14 m</item>
+        <item>19 m</item>
+        <item>26 m</item>
+        <item>36 m</item>
+    </string-array>
+    <string-array name="reverb_roomwidth_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="speaker_highfreq">
+        <item>3000 Hz</item>
+        <item>4000 Hz</item>
+        <item>5000 Hz</item>
+        <item>6000 Hz</item>
+        <item>7000 Hz</item>
+        <item>8000 Hz</item>
+    </string-array>
+    <string-array name="speaker_highfreq_values">
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+    </string-array>
+    <string-array name="speaker_lowfreq">
+        <item>100 Hz</item>
+        <item>140 Hz</item>
+        <item>180 Hz</item>
+        <item>200 Hz</item>
+        <item>220 Hz</item>
+    </string-array>
+    <string-array name="speaker_lowfreq_values">
+        <item>100</item>
+        <item>140</item>
+        <item>180</item>
+        <item>200</item>
+        <item>220</item>
+    </string-array>
+    <string-array name="ui_prefer">
+        <item>Acemi</item>
+        <item>Asistan</item>
+        <item>Uzman</item>
+    </string-array>
+    <string-array name="ui_prefer_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="vbass_boost">
+        <item>3.5 dB</item>
+        <item>6.0 dB</item>
+        <item>8.0 dB</item>
+        <item>10.0 dB</item>
+        <item>11.0 dB</item>
+        <item>12.0 dB</item>
+        <item>13.0 dB</item>
+        <item>14.0 dB</item>
+        <item>14.8 dB</item>
+        <item>15.6 dB</item>
+        <item>16.3 dB</item>
+        <item>17.0 dB</item>
+    </string-array>
+    <string-array name="vbass_boost_values">
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+        <item>550</item>
+        <item>600</item>
+    </string-array>
+    <string-array name="vbass_freq">
+        <item>30 Hz</item>
+        <item>40 Hz</item>
+        <item>50 Hz</item>
+        <item>60 Hz</item>
+        <item>66 Hz</item>
+        <item>78 Hz</item>
+        <item>80 Hz</item>
+        <item>100 Hz</item>
+    </string-array>
+    <string-array name="vbass_freq_values">
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>66</item>
+        <item>78</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="vbass_mode">
+        <item>Doğal Bas</item>
+        <item>Pure Bass+</item>
+        <item>Subwoofer (Düşük Hz lerde çalışır)</item>
+    </string-array>
+    <string-array name="vbass_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="vclarity_boost">
+        <item>Default</item>
+        <item>3.5 dB</item>
+        <item>6.0 dB</item>
+        <item>8.0 dB</item>
+        <item>10.0 dB</item>
+        <item>11.0 dB</item>
+        <item>12.0 dB</item>
+        <item>13.0 dB</item>
+        <item>14.0 dB</item>
+        <item>14.8 dB</item>
+    </string-array>
+    <string-array name="vclarity_boost_values">
+        <item>0</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+    </string-array>
+    <string-array name="vclarity_mode">
+        <item>Doğal</item>
+        <item>OZone+</item>
+        <item>XHiFi</item>
+    </string-array>
+    <string-array name="vclarity_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="vhs_qual">
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+    </string-array>
+    <string-array name="vhs_qual_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="vse_strength_values">
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+    </string-array>
+    <!-- From: file:/C:/Users/최요한/ViPER4Android-Gradle/app/src/main/res/values-tr/strings.xml -->
+    <eat-comment/>
+    <string name="about_text">"***ViPER4Android Hakkında*** 
+ 
+'libv4a_xx_xx.so' ViPER4Android in kernelidir. 
+Telif Hakkı © 2006-2016, ViPER ACOUSTIC. Tüm hakları saklıdır. 
+Resmi izin dışında, ticari kullanımı yasaktır. 
+Resmi Forum: http://vipersaudio.com/blog/ 
+
+ 
+'ViPER4Android.apk' ViPER4Android in kontrol panelidir. 
+Cyanogenmod un DSPManager i üzerine kurulmuştur. 
+
+Özel Teşekkürler
+Zhuhang@XDA
+M4570D0N@github
+xLaMbChOpSx@github
+bboa@github
+ 
+Versiyon %1$s (FX), Kod adı “Beautiful”. 
+"</string>
+    <string name="about_title">Yardım ve Hakkında</string>
+    <string name="app_name">ViPER4Android FX</string>
+    <string name="audio_effects">Ses Efektleri</string>
+    <string name="bluetooth_title">Bluetooth Kulaklık/Hoparlör</string>
+    <string name="dialog_colorfulmusic">Field Surround Strength</string>
+    <string name="dialog_colorfulmusic_mi">Mid Image Strength</string>
+    <string name="dialog_cure_crossfeed">Binaural Level</string>
+    <string name="dialog_diffsurr_ms">Gecikme Süresi</string>
+    <string name="dialog_effect">Efekt Gücü</string>
+    <string name="dialog_vhs_qual">Efekt Seviyesi</string>
+    <string name="dsp_settings_bluetooth">Efekt Ayarları - Bluetooth Kulaklık/Hoparlör</string>
+    <string name="dsp_settings_headset">Efekt Ayarları - Kulaklık</string>
+    <string name="dsp_settings_speaker">Efekt Ayarları - Hoparlör</string>
+    <string name="dsp_settings_usb">Efekt Ayarları - USB Cihazı</string>
+    <string name="eq_preset_acoustic">Akustik</string>
+    <string name="eq_preset_bass_booster">Bas Yükseltici</string>
+    <string name="eq_preset_bass_reducer">Bas Azaltıcı</string>
+    <string name="eq_preset_classical">Klasik</string>
+    <string name="eq_preset_custom">Özel</string>
+    <string name="eq_preset_deep">Derin</string>
+    <string name="eq_preset_flat">Düz</string>
+    <string name="eq_preset_r_and_b">RB</string>
+    <string name="eq_preset_rock">Rock</string>
+    <string name="eq_preset_small_speakers">Küçük Hoparlörler</string>
+    <string name="eq_preset_treble_booster">Tiz Yükseltici</string>
+    <string name="eq_preset_treble_reducer">Tiz Azaltıcı</string>
+    <string name="eq_preset_vocal_booster">Vokal Yükseltici</string>
+    <string name="headset_title">Kulaklık</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_toggle_drawer">Çekmece görünümüne geç</string>
+    <string name="navigation_toggle_tabbed">Sekme görünümüne geç</string>
+    <string name="pref_colorfulmusic_enable">Etkinleştirme</string>
+    <string name="pref_colorfulmusic_summary_off">Field surround is disabled</string>
+    <string name="pref_colorfulmusic_summary_on">Field surround is enabled</string>
+    <string name="pref_colorfulmusic_title">Field Surround</string>
+    <string name="pref_convolver_crosschannel">Cross Channel</string>
+    <string name="pref_convolver_crosschannel_title">Select Cross Channel</string>
+    <string name="pref_convolver_enable">Etkinleştirme</string>
+    <string name="pref_convolver_knl">Impulse Response</string>
+    <string name="pref_convolver_knl_title">Select Impulse Response</string>
+    <string name="pref_convolver_summary_off">Convolver is disabled</string>
+    <string name="pref_convolver_summary_on">Convolver is enabled</string>
+    <string name="pref_convolver_title">Convolver</string>
+    <string name="pref_curesystem_enable">Etkinleştirme</string>
+    <string name="pref_curesystem_summary_off">Cure Tech+ devre dışı bırakıldı</string>
+    <string name="pref_curesystem_summary_on">Cure Tech+ etkinleştirildi</string>
+    <string name="pref_curesystem_title">Auditory System Protection</string>
+    <string name="pref_diffsurr_enable">Etkinleştirme</string>
+    <string name="pref_diffsurr_summary_off">Difer surround devre dışı bırakıldı</string>
+    <string name="pref_diffsurr_summary_on">Difer surround etkinleştirildi</string>
+    <string name="pref_diffsurr_title">Diferansiyel Surround</string>
+    <string name="pref_dsp_enable">Etkinleştirme</string>
+    <string name="pref_dynamicsystem_bass">Dinamik Bası Seç</string>
+    <string name="pref_dynamicsystem_enable">Etkinleştirme</string>
+    <string name="pref_dynamicsystem_output">Dinleme Cihazı</string>
+    <string name="pref_dynamicsystem_output_title">Dinleme Cihazını Seç</string>
+    <string name="pref_dynamicsystem_summary_off">Dinamik sistem devre dışı bırakıldı</string>
+    <string name="pref_dynamicsystem_summary_on">Dinamik sistem etkinleştirildi</string>
+    <string name="pref_dynamicsystem_title">Dinamik Sistem</string>
+    <string name="pref_dynamicsystem_tube_summary_off">Ses tüneli simulatörü devre dışı bırakıldı</string>
+    <string name="pref_dynamicsystem_tube_summary_on">Ses tüneli simulatörü etkinleştirildi</string>
+    <string name="pref_dynamicsystem_tube_title">Ses Tüneli Simulatörü (6N1J)</string>
+    <string name="pref_effect_title">Efekt Gücünü Seç</string>
+    <string name="pref_equalizer_enable">Etkinleştirme</string>
+    <string name="pref_equalizer_preset_title">Müzik Türünü Seçin</string>
+    <string name="pref_equalizer_summary_off">FIREqualizer devre dışı bırakıldı</string>
+    <string name="pref_equalizer_summary_on">FIREqualizer etkinleştirildi</string>
+    <string name="pref_equalizer_title">FIREqualizer</string>
+    <string name="pref_fidelity_title">Fidelity Control</string>
+    <string name="pref_fidelity_vb_bassfreq">Bas Sıklığı</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Bas Sıklığını Seçin</string>
+    <string name="pref_fidelity_vb_bassgain">Bas Yükseltme</string>
+    <string name="pref_fidelity_vb_bassgain_title">Bas Yükseltmeyi Seçin</string>
+    <string name="pref_fidelity_vb_enable">ViPER Bass ı Etkinleştir</string>
+    <string name="pref_fidelity_vb_mode">Bas Modu</string>
+    <string name="pref_fidelity_vb_mode_title">Bas Modunu Seçin</string>
+    <string name="pref_fidelity_vb_summary_off">ViPER Bass devre dışı bırakıldı</string>
+    <string name="pref_fidelity_vb_summary_on">ViPER Bass etkinleştirildi</string>
+    <string name="pref_fidelity_vc_bassgain">Berraklık</string>
+    <string name="pref_fidelity_vc_bassgain_title">Berraklığı Seç</string>
+    <string name="pref_fidelity_vc_enable">ViPER Clarity i Etkinleştir</string>
+    <string name="pref_fidelity_vc_mode">Berraklık Modu</string>
+    <string name="pref_fidelity_vc_mode_title">Berraklık Modunu Seçiniz</string>
+    <string name="pref_fidelity_vc_summary_off">ViPER Clarity devre dışı bırakıldı</string>
+    <string name="pref_fidelity_vc_summary_on">ViPER Clarity etkinleştirildi</string>
+    <string name="pref_force_enable_text">V4A yı Etkinleştirmeye Zorla</string>
+    <string name="pref_force_enable_warn">"Etkinleştirmeye zorlamak efekt olmama sorununu çözebilir. 
+Ancak bazı ROMlarda sesin gitmesine ya da pil tüketiminin aşırı derecede artmasına neden olabilir. 
+Bu yüzden, lütfen riskiniz altında kullanın. Eğer böyle durumlar meydana gelirse, lütfen bu özelliği kapatın."</string>
+    <string name="pref_fx_limiter_threshold">Limit Threshold</string>
+    <string name="pref_fx_limiter_title">Ana Geçiş (Limitleyici)</string>
+    <string name="pref_fx_master_summary_off">V4A-FX Kapalı</string>
+    <string name="pref_fx_master_summary_on">V4A-FX Açık</string>
+    <string name="pref_fx_master_title">Ana Güç</string>
+    <string name="pref_output_gain">Çıkış Kazancı</string>
+    <string name="pref_output_pan">Channel Pan</string>
+    <string name="pref_playback_maxgain">Maks Kazanç</string>
+    <string name="pref_playback_output_threshold">Maks Çıkış</string>
+    <string name="pref_playback_summary_off">PlaybackAGC devre dışı bırakıldı</string>
+    <string name="pref_playback_summary_on">PlaybackAGC etkinleştirildi</string>
+    <string name="pref_playback_title">Playback Kazanç Kontrolü</string>
+    <string name="pref_reverb_damp">Damping Factor</string>
+    <string name="pref_reverb_dry">Kuru Sinyal</string>
+    <string name="pref_reverb_enable">Etkinleştirme</string>
+    <string name="pref_reverb_roomsize">Oda Büyüklüğü</string>
+    <string name="pref_reverb_summary_off">Yankılanma devre dışı bırakıldı</string>
+    <string name="pref_reverb_summary_on">Yankılanma etkinleştirildi</string>
+    <string name="pref_reverb_title">Yankılanma</string>
+    <string name="pref_reverb_wet">Yaş Sinyal</string>
+    <string name="pref_reverb_width">Ses Alanı</string>
+    <string name="pref_select_colorfulmusic_mi_title">Select Mid Image Strength</string>
+    <string name="pref_select_colorfulmusic_title">Select Field Surround Strength</string>
+    <string name="pref_select_cure_cf_title">Select Binaural Level</string>
+    <string name="pref_select_diffsurr_ms_title">Gecikme Süresini Seçin</string>
+    <string name="pref_select_vhs_qual_title">Efekt Seviyesini Seçiniz</string>
+    <string name="pref_spk_opt_summary_off">Hoparlör optimizasyonu devre dışı bırakıldı</string>
+    <string name="pref_spk_opt_summary_on">Hoparlör optimizasyonu etkinleştirildi</string>
+    <string name="pref_spk_opt_title">Hoparlör Optimizasyonu</string>
+    <string name="pref_spkfx_limiter_threshold">Limit Threshold</string>
+    <string name="pref_spkfx_limiter_title">Ana Geçiş (Limitleyici)</string>
+    <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX Kapalı</string>
+    <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX Açık</string>
+    <string name="pref_spkfx_master_title">Ana Güç</string>
+    <string name="pref_vhs_enable">Etkinleştirme</string>
+    <string name="pref_vhs_summary_off">VHS+ devre dışı bırakıldı</string>
+    <string name="pref_vhs_summary_on">VHS+ etkinleştirildi</string>
+    <string name="pref_vhs_title">Kulaklık Surround +</string>
+    <string name="pref_viperddc_device">Dinleme Cihazı</string>
+    <string name="pref_viperddc_device_manufacturer">Üretici Seç</string>
+    <string name="pref_viperddc_device_model">Model Seç</string>
+    <string name="pref_viperddc_enable">Etkinleştirme</string>
+    <string name="pref_viperddc_summary_off">ViPER-DDC devre dışı bırakıldı</string>
+    <string name="pref_viperddc_summary_on">ViPER-DDC etkinleştirildi</string>
+    <string name="pref_viperddc_tips">"BİLDİRİ: 
+ViPER-DDC Hi-Fi ses işlemcisidir ve kulaklık doğrulamada kullanılır. 
+ViPER-DDC 500 e yakın kulaklığı destekler, ve daha fazlasını desteklemeye devam edecektir. 
+Bu yüzden, eğer kulaklığınızı listede bulamıyorsanız, bu özelliği kapatınız."</string>
+    <string name="pref_viperddc_title">ViPER-DDC</string>
+    <string name="pref_vse_enable">Etkinleştirme</string>
+    <string name="pref_vse_strength">Güç</string>
+    <string name="pref_vse_strength_title">Güç Seç</string>
+    <string name="pref_vse_summary_off">Spektrum uzantısı devre dışı bırakıldı</string>
+    <string name="pref_vse_summary_on">Spektrum uzantısı etkinleştirildi</string>
+    <string name="pref_vse_tips">"NOTICE: 
+Spectrum extension is a true Hi-Fi audio processor and it is used for extending the lossy compressed spectrum. 
+If you are playing lossy compressed music(such mp3, aac, ogg), this feature may gives you a lossless feeling. 
+But if you are playing lossless music, we recommend you to disable this feature."</string>
+    <string name="pref_vse_title">Spektrum Uzantısı</string>
+    <string name="pref_xloud_output_amplifer">Çıkış Kazancı</string>
+    <string name="pref_xloud_spk_highfreq">High Response</string>
+    <string name="pref_xloud_spk_lowfreq">Low Response</string>
+    <string name="pref_xloud_summary_off">eXtra-Loud devre dışı bırakıldı</string>
+    <string name="pref_xloud_summary_on">eXtra-Loud etkinleştirildi</string>
+    <string name="pref_xloud_title">eXtra Loud</string>
+    <string name="select_configuration_title">ViPER4Android FX</string>
+    <string name="speaker_title">Hoparlör</string>
+    <string name="text_abnormal">Anormal</string>
+    <string name="text_bluetooth">Bluetooth</string>
+    <string name="text_cancel">İptal</string>
+    <string name="text_changelog">Değişiklik Listesi</string>
+    <string name="text_checkupdate">Güncellemeleri Kontrol Et</string>
+    <string name="text_commode">FX Uyumluluk Modu</string>
+    <string name="text_disabled">Devre dışı bırakıldı</string>
+    <string name="text_drv_blank"/>
+    <string name="text_drv_status">Sürücü Durumu</string>
+    <string name="text_drv_status_view">"
+
+Sürücü Versiyonu: %1$s 
+NEON Etkinleştirme: %2$s 
+Etkinleştirme: %3$s 
+Durum: %4$s 
+Ses Formatı: %5$s 
+İşlemleme: %6$s 
+Örnekleme Hızı: %7$d 
+"</string>
+    <string name="text_drvinst_acquireroot">Sürücü yüklenemedi, root izni sağlanamadı, lütfen cihazınızın rootlu olduğundan emin olun.</string>
+    <string name="text_drvinst_busybox_not_installed">Sürücü yüklenemedi, çünkü busybox cihazınızda bulunamadı.</string>
+    <string name="text_drvinst_cfg_unsup">Sürücü yüklenemedi , desteklenmeyen Android sürümü ya da ROM.</string>
+    <string name="text_drvinst_dataioerr">Sürücü yüklenemedi , I/O error, lütfen yeniden başlatıp tekrar deneyin.</string>
+    <string name="text_drvinst_failed">"Sürücü yüklenemedi , cihazınızda bulunan busybox çalışmıyor. 
+Bu yanlış ya da bozuk busybox yüklenmiş anlamına gelmektedir, V4A çalışmak için stericson busybox ürününe ihtiyaç duyar. 
+Eğer uygun busybox ı yüklediğinizden eminseniz, lütfen cihazınızın tamamen rootlanmış olduğundan emin olun."</string>
+    <string name="text_drvinst_ok">Sürücü yüklendi, lütfen cihazınızı yeniden başlatın.</string>
+    <string name="text_drvinst_prefer">Lütfen seçiminizi yapınız</string>
+    <string name="text_drvinst_sdnotmounted">Sürücü yüklenemedi, harici hafıza bulunamadı.</string>
+    <string name="text_drvinst_sqdrv">"Süper ses kalitesi sürücüsü en az iki çekirdekli işlemci gerektirir ve pil tüketimini hızlandırır. 
+Yine de devam etmek istiyor musunuz?"</string>
+    <string name="text_drvuninst_confim">V4A sürücüsünü kaldırmak istediğinizden emin misiniz?</string>
+    <string name="text_drvuninst_ok">Sürücü kaldırıldı, lütfen cihazınızı yeniden başlatın.</string>
+    <string name="text_drvvernotmatch">"ViPER4Android'i kullanmak için, V4A sürücüsünü yüklemeniz/güncellemeniz gerekmektedir. 
+
+Şimdi yüklensin/güncellensin mi ?"</string>
+    <string name="text_enabled">Etkinleştirildi</string>
+    <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+    <string name="text_headset">Kulaklık</string>
+    <string name="text_help_content">" ***Genel Yardım*** 
+ 
+'Sürücüyü Yükle' - ViPER4Android efekt sürücüsünü Yükle/Güncelle. 
+'Sürücüyü Kaldır' - ViPER4Android efekt sürücüsünü kaldır. 
+'FX Uyumluluk Modu' - Efekt uyumluluk modunu ayarla. 
+ 'Normal' - ViPER4Android i genel efekt yap. 
+ 'Uyumlu' - ViPER4Android i yerel efekt yap. 
+ 
+ "<b>V4A efekti cihazınızda yüklü olan bütün/çoğu medya oynatıcısında yok mu ?</b>" 
+ FX modunu uyumlu yapıp telefonunuzu yeniden başlatın ve tekrar deneyim. 
+ 
+ "<b>Ses kalitesini nasıl değiştirebilirim?</b>" 
+ Menüden sürücüyü kaldırıp telefonunuzu yeniden başlatın. Uygulamayı açtığınızda istediğiniz ses kalitesini seçiniz.
+ 
+ "<b>Pil tüketimini nasıl azaltırım ?</b>" 
+V4A Normal modda çalışıyorken sistem sesleri ayarlarından dokunma ve kilit seslerini kapatınız. 
+ 
+ "<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b>" "</string>
+    <string name="text_hidetrayicon">Bildirimi Gizle</string>
+    <string name="text_install">Sürücüyü Yükle</string>
+    <string name="text_ir_dir_isempty">ViPER4Android: IR örnek klasörü %1$s boş.</string>
+    <string name="text_loadfxprofile">Efekt Profili Yükle</string>
+    <string name="text_lockeffect">Efekt Modunu Kilitle</string>
+    <string name="text_modifybuildprop">"UYARI: 
+LPA özelliği cihazınızda etkinleştirilmiş, bu V4A nın işlevsizliğine sebep olabilir. 
+LPA nın anlamı  Düşük Güçlü Ses, bu sorunu build.prop u düzenleyerek düzeltebiliriz. 
+İşleme başlamadan önce şiddetle NANDROİD YEDEĞİ ya da VERİ YEDEĞİ almanızı öneririz!
+LPA yı şimdi devre dışı bırakmak ister misiniz?"</string>
+    <string name="text_newfxprofile">Yeni Efekt Profili</string>
+    <string name="text_no">Hayır</string>
+    <string name="text_no_busybox">Cihazınızda busybox bulunamadı, şimdi yüklemek ister misiniz?</string>
+    <string name="text_normal">Normal</string>
+    <string name="text_ok">Tamam</string>
+    <string name="text_profileload_tip">Profili Uygula</string>
+    <string name="text_profilesaved_overwrite">Bu profili yeniden yazmak istiyor musunuz ?</string>
+    <string name="text_savefxprofile">Efekt Profilini Kaydet</string>
+    <string name="text_service_error">ViPER4Android servisi ile bağlantı kurulamadı</string>
+    <string name="text_showtrayicon">Bildirimi Göster</string>
+    <string name="text_speaker">Hoparlör</string>
+    <string name="text_supported">Desteklenmiş</string>
+    <string name="text_token_lost">ViPER4Android: Bazı programlar androidden ses efektlerini kapatmasını istedi, bu yüzden V4A geçici olarak devre dışı bırakıldı.</string>
+    <string name="text_uiprefer">KA (Kull. Arayüzü) Ayarı</string>
+    <string name="text_uiprefer_dialog">Lütfen seçiminizi yapınız</string>
+    <string name="text_uninstall">Sürücüyü Kaldır</string>
+    <string name="text_unsupported">Desteklenmemiş</string>
+    <string name="text_updatelink">http://vipersaudio.com/swupdate/viper4android/download.html</string>
+    <string name="text_usb">USB/Dock</string>
+    <string name="text_view_forum">Forum</string>
+    <string name="text_yes">Evet</string>
+    <string name="usb_title">USB/Dock</string>
+</resources>

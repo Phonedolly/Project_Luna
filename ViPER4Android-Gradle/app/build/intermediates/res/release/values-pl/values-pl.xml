@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/최요한/ViPER4Android-Gradle/app/src/main/res/values-pl/arrays.xml -->
+    <eat-comment/>
+    <string-array name="amplification_db">
+        <item>0 dB</item>
+        <item>3.5 dB</item>
+        <item>6.0 dB</item>
+        <item>9.5 dB</item>
+        <item>12.0 dB</item>
+        <item>14.0 dB</item>
+        <item>18.0 dB</item>
+        <item>20.0 dB</item>
+    </string-array>
+    <string-array name="colorfulmusic_coeffs">
+        <item>Delikatna</item>
+        <item>Poziom 1</item>
+        <item>Poziom 2</item>
+        <item>Poziom 3</item>
+        <item>Poziom 4</item>
+        <item>Poziom 5</item>
+        <item>Poziom 6</item>
+        <item>Poziom 7</item>
+        <item>Mocna</item>
+    </string-array>
+    <string-array name="colorfulmusic_midimage">
+        <item>Delikatna</item>
+        <item>Poziom 1</item>
+        <item>Poziom 2</item>
+        <item>Poziom 3</item>
+        <item>Poziom 4</item>
+        <item>Poziom 5</item>
+        <item>Poziom 6</item>
+        <item>Poziom 7</item>
+        <item>Poziom 8</item>
+        <item>Poziom 9</item>
+        <item>Mocna</item>
+    </string-array>
+    <string-array name="compatible_mode">
+        <item>Normalny</item>
+        <item>Kompatybilny</item>
+    </string-array>
+    <string-array name="conv_cross_channel">
+        <item>0 procent</item>
+        <item>5 procent</item>
+        <item>10 procent</item>
+        <item>15 procent</item>
+        <item>20 procent</item>
+        <item>25 procent</item>
+        <item>30 procent</item>
+        <item>35 procent</item>
+        <item>40 procent</item>
+        <item>45 procent</item>
+        <item>50 procent</item>
+        <item>55 procent</item>
+        <item>60 procent</item>
+        <item>70 procent</item>
+        <item>80 procent</item>
+    </string-array>
+    <string-array name="cure_crossfeed">
+        <item>Delikatny</item>
+        <item>Umiarkowany</item>
+        <item>Mocny</item>
+    </string-array>
+    <string-array name="drvinst_prefer">
+        <item>B. wysoka jakość dźwięku</item>
+        <item>Wysoka jakość dźwięku</item>
+        <item>Oszczędność baterii</item>
+    </string-array>
+    <string-array name="dynamicsystem_bass">
+        <item>0 procent</item>
+        <item>1 procent</item>
+        <item>2 procent</item>
+        <item>3 procent</item>
+        <item>4 procent</item>
+        <item>5 procent</item>
+        <item>6 procent</item>
+        <item>7 procent</item>
+        <item>8 procent</item>
+        <item>9 procent</item>
+        <item>10 procent</item>
+        <item>12 procent</item>
+        <item>14 procent</item>
+        <item>16 procent</item>
+        <item>18 procent</item>
+        <item>20 procent</item>
+        <item>22 procent</item>
+        <item>24 procent</item>
+        <item>26 procent</item>
+        <item>28 procent</item>
+        <item>30 procent</item>
+        <item>33 procent</item>
+        <item>36 procent</item>
+        <item>40 procent</item>
+        <item>45 procent</item>
+        <item>50 procent</item>
+        <item>55 procent</item>
+        <item>60 procent</item>
+        <item>70 procent</item>
+        <item>80 procent</item>
+        <item>90 procent</item>
+        <item>100 procent</item>
+    </string-array>
+    <string-array name="dynamicsystem_outputs">
+        <item>Nauszne z mocnym basem (v2)</item>
+        <item>Nauszne wysokiej klasy (v2)</item>
+        <item>Nauszne uniwersalne (v2)</item>
+        <item>Nauszne niskiej klasy (v2)</item>
+        <item>Douszne uniwersalne (v2)</item>
+        <item>Nauszne z mocnym basem (v1)</item>
+        <item>Nauszne wysokiej klasy (v1)</item>
+        <item>Nauszne uniwersalne (v1)</item>
+        <item>Douszne uniwersalne (v1)</item>
+        <item>Douszne Apple</item>
+        <item>Douszne Monster</item>
+        <item>Douszne Motoroli</item>
+        <item>Douszne Philips</item>
+        <item>Philips SHP 2000</item>
+        <item>Philips SHP 9000</item>
+        <item>Nieznany typ I</item>
+        <item>Nieznany typ II</item>
+        <item>Nieznany typ III</item>
+        <item>Nieznany typ IV</item>
+    </string-array>
+    <string-array name="multi_factor">
+        <item>1x</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>6x</item>
+        <item>7x</item>
+        <item>8x</item>
+        <item>9x</item>
+        <item>10x</item>
+        <item>Inf</item>
+    </string-array>
+    <string-array name="output_db">
+        <item>0 dB</item>
+        <item>-1.0 dB</item>
+        <item>-1.9 dB</item>
+        <item>-3.0 dB</item>
+        <item>-6.0 dB</item>
+        <item>-10.5 dB</item>
+    </string-array>
+    <string-array name="output_volume">
+        <item>6.0 dB</item>
+        <item>5.6 dB</item>
+        <item>5.1 dB</item>
+        <item>4.6 dB</item>
+        <item>4.1 dB</item>
+        <item>3.5 dB</item>
+        <item>2.9 dB</item>
+        <item>2.3 dB</item>
+        <item>1.6 dB</item>
+        <item>0.8 dB</item>
+        <item>0 dB</item>
+        <item>-1.0 dB</item>
+        <item>-1.9 dB</item>
+        <item>-3.0 dB</item>
+        <item>-4.4 dB</item>
+        <item>-6.0 dB</item>
+        <item>-8.0 dB</item>
+        <item>-10.5 dB</item>
+        <item>-14.0 dB</item>
+        <item>-20.0 dB</item>
+        <item>-26.0 dB</item>
+        <item>-40.0 dB</item>
+    </string-array>
+    <string-array name="playbackgain_ratio">
+        <item>Delikatna</item>
+        <item>Umiarkowana</item>
+        <item>Mocna</item>
+    </string-array>
+    <string-array name="reverb_percent">
+        <item>0 procent</item>
+        <item>10 procent</item>
+        <item>20 procent</item>
+        <item>30 procent</item>
+        <item>40 procent</item>
+        <item>50 procent</item>
+        <item>60 procent</item>
+        <item>70 procent</item>
+        <item>80 procent</item>
+        <item>90 procent</item>
+        <item>100 procent</item>
+    </string-array>
+    <string-array name="reverb_roomsize">
+        <item>25 m2</item>
+        <item>36 m2</item>
+        <item>49 m2</item>
+        <item>64 m2</item>
+        <item>81 m2</item>
+        <item>100 m2</item>
+        <item>121 m2</item>
+        <item>203 m2</item>
+        <item>347 m2</item>
+        <item>652 m2</item>
+        <item>1200 m2</item>
+    </string-array>
+    <string-array name="reverb_roomwidth">
+        <item>5 m</item>
+        <item>6 m</item>
+        <item>7 m</item>
+        <item>8 m</item>
+        <item>9 m</item>
+        <item>10 m</item>
+        <item>11 m</item>
+        <item>14 m</item>
+        <item>19 m</item>
+        <item>26 m</item>
+        <item>36 m</item>
+    </string-array>
+    <string-array name="speaker_highfreq">
+        <item>3000 Hz</item>
+        <item>4000 Hz</item>
+        <item>5000 Hz</item>
+        <item>6000 Hz</item>
+        <item>7000 Hz</item>
+        <item>8000 Hz</item>
+    </string-array>
+    <string-array name="speaker_lowfreq">
+        <item>100 Hz</item>
+        <item>140 Hz</item>
+        <item>180 Hz</item>
+        <item>200 Hz</item>
+        <item>220 Hz</item>
+    </string-array>
+    <string-array name="ui_prefer">
+        <item>Początkujący</item>
+        <item>Standardowy</item>
+        <item>Zaawansowany</item>
+    </string-array>
+    <string-array name="vbass_boost">
+        <item>3.5 dB</item>
+        <item>6.0 dB</item>
+        <item>8.0 dB</item>
+        <item>10.0 dB</item>
+        <item>11.0 dB</item>
+        <item>12.0 dB</item>
+        <item>13.0 dB</item>
+        <item>14.0 dB</item>
+        <item>14.8 dB</item>
+        <item>15.6 dB</item>
+        <item>16.3 dB</item>
+        <item>17.0 dB</item>
+    </string-array>
+    <string-array name="vbass_freq">
+        <item>30 Hz</item>
+        <item>40 Hz</item>
+        <item>50 Hz</item>
+        <item>60 Hz</item>
+        <item>66 Hz</item>
+        <item>78 Hz</item>
+        <item>80 Hz</item>
+        <item>100 Hz</item>
+    </string-array>
+    <string-array name="vbass_mode">
+        <item>Naturalny Bas</item>
+        <item>Czysty Bas+</item>
+        <item>Subwoofer</item>
+    </string-array>
+    <string-array name="vclarity_boost">
+        <item>Domyślnie</item>
+        <item>3.5 dB</item>
+        <item>6.0 dB</item>
+        <item>8.0 dB</item>
+        <item>10.0 dB</item>
+        <item>11.0 dB</item>
+        <item>12.0 dB</item>
+        <item>13.0 dB</item>
+        <item>14.0 dB</item>
+        <item>14.8 dB</item>
+    </string-array>
+    <string-array name="vclarity_mode">
+        <item>Naturalna</item>
+        <item>OZone+</item>
+        <item>XHiFi</item>
+    </string-array>
+    <string-array name="vhs_qual">
+        <item>Poziom 1</item>
+        <item>Poziom 2</item>
+        <item>Poziom 3</item>
+        <item>Poziom 4</item>
+        <item>Poziom 5</item>
+    </string-array>
+    <!-- From: file:/C:/Users/최요한/ViPER4Android-Gradle/app/src/main/res/values-pl/strings.xml -->
+    <eat-comment/>
+    <string name="about_text">"***O ViPER4Android*** 
+ 
+'libv4a_xx_xx.so' jest silnikiem aplikacji. 
+Copyright © 2006-2016, ViPER ACOUSTIC. Wszelkie prawa zastrzeżone. 
+Komercyjne rozpowszechnianie bez zgody twórcy jest zabronione. 
+Oficjalne forum: forum.vipersaudio.com 
+ 
+Niewielkie części kodu zostały oparte o DSPManager grupy CyanogenMod. 
+Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github 
+ 
+Wersja %1$s (FX), Codename “Beautiful”. 
+"</string>
+    <string name="about_title">Informacje i pomoc</string>
+    <string name="app_name">ViPER FX</string>
+    <string name="audio_effects">Efekty dźwiękowe</string>
+    <string name="bluetooth_title">Bluetooth</string>
+    <string name="dialog_colorfulmusic">Wybierz siłę efektu</string>
+    <string name="dialog_colorfulmusic_mi">Wybierz głębię efektu</string>
+    <string name="dialog_cure_crossfeed">Obustronny efekt</string>
+    <string name="dialog_diffsurr_ms">Wybierz opóźnienie</string>
+    <string name="dialog_effect">Wybierz siłę efektu</string>
+    <string name="dialog_vhs_qual">Wybierz poziom efektu</string>
+    <string name="dsp_settings_bluetooth">Ustawienia - Bluetooth</string>
+    <string name="dsp_settings_headset">Ustawienia - Słuchawki</string>
+    <string name="dsp_settings_speaker">Ustawienia - Głośnik</string>
+    <string name="dsp_settings_usb">Ustawienia - Urządzenie USB</string>
+    <string name="eq_preset_acoustic">Akustyczny</string>
+    <string name="eq_preset_bass_booster">Wzmocnienie basu</string>
+    <string name="eq_preset_bass_reducer">Redukcja basu</string>
+    <string name="eq_preset_classical">Klasyczny</string>
+    <string name="eq_preset_custom">Własny</string>
+    <string name="eq_preset_deep">Głęboki</string>
+    <string name="eq_preset_flat">Płaski</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">Rock</string>
+    <string name="eq_preset_small_speakers">Małe głośniki</string>
+    <string name="eq_preset_treble_booster">Wzmocnienie sopranu</string>
+    <string name="eq_preset_treble_reducer">Redukcja sopranu</string>
+    <string name="eq_preset_vocal_booster">Wzmocnienie wokalu</string>
+    <string name="headset_title">Słuchawki</string>
+    <string name="navigation_drawer_close">Zamknij panel boczny</string>
+    <string name="navigation_drawer_open">Otwórz panel boczny</string>
+    <string name="navigation_toggle_drawer">Panel boczny</string>
+    <string name="navigation_toggle_tabbed">Widok kolumn</string>
+    <string name="pref_colorfulmusic_enable">Dźwięk przestrzenny</string>
+    <string name="pref_colorfulmusic_summary_off">Nieaktywny</string>
+    <string name="pref_colorfulmusic_summary_on">Aktywny</string>
+    <string name="pref_colorfulmusic_title">Dźwięk przestrzenny</string>
+    <string name="pref_convolver_crosschannel">Nakładanie kanałów</string>
+    <string name="pref_convolver_crosschannel_title">Wybierz nałożenie kanałów</string>
+    <string name="pref_convolver_enable">Convolver</string>
+    <string name="pref_convolver_knl">Impulsy</string>
+    <string name="pref_convolver_knl_title">Wybierz impulsy</string>
+    <string name="pref_convolver_summary_off">Nieaktywny</string>
+    <string name="pref_convolver_summary_on">Aktywny</string>
+    <string name="pref_convolver_title">Convolver</string>
+    <string name="pref_curesystem_enable">Cure Tech +</string>
+    <string name="pref_curesystem_summary_off">Nieaktywny</string>
+    <string name="pref_curesystem_summary_on">Aktywny</string>
+    <string name="pref_curesystem_title">Ochrona słuchu</string>
+    <string name="pref_diffsurr_enable">Efekt Haasa</string>
+    <string name="pref_diffsurr_summary_off">Nieaktywny</string>
+    <string name="pref_diffsurr_summary_on">Aktywny</string>
+    <string name="pref_diffsurr_title">Psychoakustyka</string>
+    <string name="pref_dsp_enable">Główny przełącznik</string>
+    <string name="pref_dynamicsystem_bass">Dynamiczność basu</string>
+    <string name="pref_dynamicsystem_enable">Dynamika dźwięku</string>
+    <string name="pref_dynamicsystem_output">Słuchawki</string>
+    <string name="pref_dynamicsystem_output_title">Słuchawki</string>
+    <string name="pref_dynamicsystem_summary_off">Nieaktywna</string>
+    <string name="pref_dynamicsystem_summary_on">Aktywna</string>
+    <string name="pref_dynamicsystem_title">Dynamika</string>
+    <string name="pref_dynamicsystem_tube_summary_off">Nieaktywny</string>
+    <string name="pref_dynamicsystem_tube_summary_on">Aktywny</string>
+    <string name="pref_dynamicsystem_tube_title">Symulator tuby (6N1J)</string>
+    <string name="pref_effect_title">Siła efektu</string>
+    <string name="pref_equalizer_enable">FIREqualizer</string>
+    <string name="pref_equalizer_preset_title">Wybierz profil</string>
+    <string name="pref_equalizer_summary_off">Nieaktywny</string>
+    <string name="pref_equalizer_summary_on">Aktywny</string>
+    <string name="pref_equalizer_title">Equalizer</string>
+    <string name="pref_fidelity_title">Wierność dźwięku</string>
+    <string name="pref_fidelity_vb_bassfreq">Częstotliwość basu</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Częstotliwość basu</string>
+    <string name="pref_fidelity_vb_bassgain">Wzmocnienie basu</string>
+    <string name="pref_fidelity_vb_bassgain_title">Wzmocnienie basu</string>
+    <string name="pref_fidelity_vb_enable">Bas ViPER</string>
+    <string name="pref_fidelity_vb_mode">Tryb basu</string>
+    <string name="pref_fidelity_vb_mode_title">Tryb basu</string>
+    <string name="pref_fidelity_vb_summary_off">Nieaktywny</string>
+    <string name="pref_fidelity_vb_summary_on">Aktywny</string>
+    <string name="pref_fidelity_vc_bassgain">Czystość</string>
+    <string name="pref_fidelity_vc_bassgain_title">Czystość</string>
+    <string name="pref_fidelity_vc_enable">Czystość ViPER</string>
+    <string name="pref_fidelity_vc_mode">Tryb czystości dźwięku</string>
+    <string name="pref_fidelity_vc_mode_title">Tryb czystości dźwięku</string>
+    <string name="pref_fidelity_vc_summary_off">Nieaktywna</string>
+    <string name="pref_fidelity_vc_summary_on">Aktywna</string>
+    <string name="pref_force_enable_text">Wymuś aktywację</string>
+    <string name="pref_force_enable_warn">"Włączenie opcji powinno rozwiązać problem z brakiem efektów. 
+Jednak w kilku ROMach może to doprowadzić do utraty dźwięku lub wysokiego zużycia energii. 
+Postępuj z rozwagą. W przypadku problemów wyłącz tę opcję."</string>
+    <string name="pref_fx_limiter_threshold">Próg limitu</string>
+    <string name="pref_fx_limiter_title">Bariera (Limiter)</string>
+    <string name="pref_fx_master_summary_off">Wyłączony</string>
+    <string name="pref_fx_master_summary_on">Włączony</string>
+    <string name="pref_fx_master_title">ViPER4Android FX</string>
+    <string name="pref_output_gain">Wzmocnienie wyjściowe</string>
+    <string name="pref_output_pan">Wyrównanie (balans)</string>
+    <string name="pref_playback_maxgain">Mnożnik wzmocnienia</string>
+    <string name="pref_playback_output_threshold">Moc wyjściowa</string>
+    <string name="pref_playback_summary_off">Nieaktywny</string>
+    <string name="pref_playback_summary_on">Aktywny</string>
+    <string name="pref_playback_title">Wzmocnienie</string>
+    <string name="pref_reverb_damp">Współczynnik tłumienia</string>
+    <string name="pref_reverb_dry">Oryginalny sygnał</string>
+    <string name="pref_reverb_enable">Pogłos</string>
+    <string name="pref_reverb_roomsize">Wielkość pokoju</string>
+    <string name="pref_reverb_summary_off">Nieaktywny</string>
+    <string name="pref_reverb_summary_on">Aktywny</string>
+    <string name="pref_reverb_title">Echo</string>
+    <string name="pref_reverb_wet">Przetworzony sygnał</string>
+    <string name="pref_reverb_width">Pole akustyczne</string>
+    <string name="pref_select_colorfulmusic_mi_title">Głębia efektu</string>
+    <string name="pref_select_colorfulmusic_title">Siła efektu</string>
+    <string name="pref_select_cure_cf_title">Obustronny efekt</string>
+    <string name="pref_select_diffsurr_ms_title">Opóźnienie</string>
+    <string name="pref_select_vhs_qual_title">Poziom efektu</string>
+    <string name="pref_spk_opt_summary_off">Nieaktywna</string>
+    <string name="pref_spk_opt_summary_on">Aktywna</string>
+    <string name="pref_spk_opt_title">Optymalizacja</string>
+    <string name="pref_spkfx_limiter_threshold">Próg limitu</string>
+    <string name="pref_spkfx_limiter_title">Bariera (Limiter)</string>
+    <string name="pref_spkfx_master_summary_off">Wyłączony</string>
+    <string name="pref_spkfx_master_summary_on">Włączony</string>
+    <string name="pref_spkfx_master_title">ViPER4Android FX</string>
+    <string name="pref_vhs_enable">VHS+</string>
+    <string name="pref_vhs_summary_off">Nieaktywny</string>
+    <string name="pref_vhs_summary_on">Aktywny</string>
+    <string name="pref_vhs_title">Wirtualny dźwięk przestrzenny+</string>
+    <string name="pref_viperddc_device">Wybierz słuchawki</string>
+    <string name="pref_viperddc_device_manufacturer">Wybierz producenta</string>
+    <string name="pref_viperddc_device_model">Wybierz model</string>
+    <string name="pref_viperddc_enable">DDC</string>
+    <string name="pref_viperddc_summary_off">Nieaktywny</string>
+    <string name="pref_viperddc_summary_on">Aktywny</string>
+    <string name="pref_viperddc_tips">"UWAGA: 
+ViPER-DDC to system przetwarzający dźwięk w realnej jakości HI-FI i jest używany do korekcji dźwięku na zestawach słuchawkowych. 
+ViPER-DDC wspiera obecnie około 500 różnych zestawów słuchawkowych, a ich liczba ciągle rośnie. 
+Jeżeli Twój zestaw słuchawkowy nie widnieje jeszcze na liście wyłącz ten efekt."</string>
+    <string name="pref_viperddc_title">ViPER-DDC</string>
+    <string name="pref_vse_enable">Rozszerzenie</string>
+    <string name="pref_vse_strength">Siła efektu</string>
+    <string name="pref_vse_strength_title">Wybierz siłę efektu</string>
+    <string name="pref_vse_summary_off">Nieaktywne</string>
+    <string name="pref_vse_summary_on">Aktywne</string>
+    <string name="pref_vse_tips">"UWAGA: 
+Rozszerzenie Spectrum to system przetwarzający dźwięk w realnej jakości Hi-Fi, funkcja jest używana w celu poszerzenia pasma przenoszenia strumienia audio o kompresji stratnej. 
+Jeżeli odtwarzasz formaty stratne (jak mp3, aac, ogg), funkcja pomoże uzyskać jakość dźwięku zbliżoną do formatu bezstratnego. 
+Jeżeli odtwarzasz muzykę skompresowaną bezstratnie (jak flac) wyłącz ten efekt."</string>
+    <string name="pref_vse_title">Rozszerzenie Spectrum</string>
+    <string name="pref_xloud_output_amplifer">Wyjściowe wzmocnienie</string>
+    <string name="pref_xloud_spk_highfreq">Wysoka częstotliwość</string>
+    <string name="pref_xloud_spk_lowfreq">Niska częstotliwość</string>
+    <string name="pref_xloud_summary_off">Nieaktywny</string>
+    <string name="pref_xloud_summary_on">Aktywny</string>
+    <string name="pref_xloud_title">Wysoka głośność</string>
+    <string name="select_configuration_title">ViPER FX</string>
+    <string name="speaker_title">Głośnik</string>
+    <string name="text_abnormal">Nieprawidłowy</string>
+    <string name="text_bluetooth">Bluetooth</string>
+    <string name="text_cancel">Anuluj</string>
+    <string name="text_changelog">Lista zmian</string>
+    <string name="text_checkupdate">Sprawdź aktualizacje</string>
+    <string name="text_commode">Tryb kompatybilności</string>
+    <string name="text_disabled">Wyłączone</string>
+    <string name="text_drv_status">Pokaż stan</string>
+    <string name="text_drv_status_view">"
+ 
+Wersja bibliotek: %1$s 
+Technologia NEON: %2$s 
+Technologia V4A: %3$s 
+Stan: %4$s 
+Format dźwięku: %5$s 
+Przetwarzanie: %6$s 
+Częstotliwość próbkowania: %7$d 
+"</string>
+    <string name="text_drvinst_acquireroot">Błąd podczas instalacji bibliotek, brak uprawnień roota.</string>
+    <string name="text_drvinst_busybox_not_installed">Błąd podczas instalacji bibliotek, zła wersja Busybox.</string>
+    <string name="text_drvinst_cfg_unsup">Błąd podczas instalacji bibliotek, niewspierany rom lub wersja androida.</string>
+    <string name="text_drvinst_dataioerr">Błąd podczas instalacji bibliotek, uruchom ponownie telefon.</string>
+    <string name="text_drvinst_failed">Błąd przy instalacji bibliotek.</string>
+    <string name="text_drvinst_ok">Biblioteki zostały zainstalowane, zrestartuj telefon.</string>
+    <string name="text_drvinst_prefer">Wybierz silnik efektów</string>
+    <string name="text_drvinst_sdnotmounted">Błąd podczas instalacji bibliotek, karta pamięci odmontowana.</string>
+    <string name="text_drvinst_sqdrv">"B. wysoka jakość wymaga co najmniej dwurdzeniowego procesora i może zwiększyć zużycie baterii. 
+Kontynuować?"</string>
+    <string name="text_drvuninst_confim">Czy na pewno chcesz usunąć dodatkowe biblioteki?</string>
+    <string name="text_drvuninst_ok">Biblioteki zostały usunięte, zrestartuj telefon.</string>
+    <string name="text_drvvernotmatch">"Do korzystania z ViPER4Android konieczna jest instalacja/aktualizacja dodatkowych bibliotek. 
+Zainstalować/Zaktualizować je teraz?"</string>
+    <string name="text_enabled">Włączone</string>
+    <string name="text_headset">Słuchawki</string>
+    <string name="text_help_content">"***Mini FAQ*** 
+ 
+'Zainstaluj biblioteki' - Instaluje lub aktualizuje biblioteki efektów. 
+'Usuń biblioteki' - Odinstalowuje biblioteki efektów. 
+'Tryb kompatybilności' - Wybierz tryb kompatybilności efektów. 
+ 'Normalny' - Efekty działają globalnie. 
+ 'Kompatybilny' - Efekty działają lokalnie. 
+ 
+"<b>Efekty V4A nie działają w Twoich odtwarzaczach?</b>"
+ Przełącz się w tryb kompatybilności i spróbuj ponownie. 
+ 
+"<b>Jak zmienić jakość dźwięku?</b>"
+ Odinstaluj biblioteki w menu, zrestartuj telefon i wybierz nowy silnik efektów przy uruchamianiu aplikacji. 
+ 
+"<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+    <string name="text_hidetrayicon">Ukryj powiadomienia</string>
+    <string name="text_install">Zainstaluj biblioteki</string>
+    <string name="text_ir_dir_isempty">Brak przykładowych impulsów w %1$s.</string>
+    <string name="text_loadfxprofile">Wczytaj profil</string>
+    <string name="text_lockeffect">Stosuj do wsz. urządzeń</string>
+    <string name="text_modifybuildprop">"UWAGA: 
+Wykryto aktywną funkcję LPA, która może powodować zniekształcenia w ViPERZE. 
+Skrót LPA oznacza 'Low Power Audio', możemy wyłączyć LPA za Ciebie modyfikując build.prop. 
+Zaleca się najpierw zrobić nandroid backup całego romu! 
+Wyłączyć LPA?"</string>
+    <string name="text_newfxprofile">Nowy profil…</string>
+    <string name="text_no">Nie</string>
+    <string name="text_no_busybox">Brak Busybox, zainstalować teraz?</string>
+    <string name="text_normal">Prawidłowy</string>
+    <string name="text_ok">Ok</string>
+    <string name="text_profileload_tip">Wczytaj do?</string>
+    <string name="text_profilesaved_overwrite">Profil o takiej nazwie już istnieje, zastąpić?</string>
+    <string name="text_savefxprofile">Zapisz profil</string>
+    <string name="text_service_error">Nie można uzyskać połączenia z usługą ViPER4Android.</string>
+    <string name="text_showtrayicon">Pokaż powiadomienia</string>
+    <string name="text_speaker">Głośnik</string>
+    <string name="text_supported">Wspierany</string>
+    <string name="text_token_lost">Niektóre programy wymagają wyłączenia swoich efektów. Do tego czasu V4A nie będzie aktywny.</string>
+    <string name="text_uiprefer">Interfejs</string>
+    <string name="text_uiprefer_dialog">Wybierz interfejs</string>
+    <string name="text_uninstall">Usuń biblioteki</string>
+    <string name="text_unsupported">Niewspierany</string>
+    <string name="text_usb">USB/Dock</string>
+    <string name="text_view_forum">Forum</string>
+    <string name="text_yes">Tak</string>
+    <string name="usb_title">USB/Dock</string>
+</resources>

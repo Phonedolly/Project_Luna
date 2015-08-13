@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res"><file name="icon" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\drawable-hdpi\icon.png" qualifiers="hdpi" type="drawable"/><file name="icon" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\drawable-ldpi\icon.png" qualifiers="ldpi" type="drawable"/><file name="icon" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\drawable-mdpi\icon.png" qualifiers="mdpi" type="drawable"/><file name="ic_equalizer_white_48dp" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\drawable-xxhdpi\ic_equalizer_white_48dp.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_settings_applications_white_48dp" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\drawable-xxhdpi\ic_settings_applications_white_48dp.png" qualifiers="xxhdpi" type="drawable"/><file name="drvstatus" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\layout\drvstatus.xml" qualifiers="" type="layout"/><file name="equalizer" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\layout\equalizer.xml" qualifiers="" type="layout"/><file name="equalizer_popup" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\layout\equalizer_popup.xml" qualifiers="" type="layout"/><file name="saveprofile" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\layout\saveprofile.xml" qualifiers="" type="layout"/><file name="top" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\layout\top.xml" qualifiers="" type="layout"/><file name="menu" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\menu\menu.xml" qualifiers="" type="menu"/><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values\arrays.xml" qualifiers=""><string-array name="equalizer_preset_values" translatable="false">
+    <item>4.5;4.5;3.5;1.2;1.0;0.5;1.4;1.75;3.5;2.5;</item>    <!-- Acoustic -->
+    <item>10.0;6.5;4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>    <!-- Bass Booster -->
+    <item>-10.5;-6.5;-4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item> <!-- Bass Reducer -->
+    <item>4.0;4.0;3.25;1.0;0.0;0.0;-1.0;-0.5;2.0;2.0;</item>  <!-- Classical -->
+    <item>4.0;4.0;0.5;0.0;0.0;0.0;0.0;1.5;-4.0;-4.5;</item>   <!-- Deep -->
+    <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>     <!-- Flat -->
+    <item>5.5;5.5;3.5;0.0;0.0;0.0;0.0;-1.75;1.5;2.5;</item>   <!-- R&B -->
+    <item>4.5;4.5;2.75;0.0;0.0;0.0;0.0;-0.5;2.75;4.0;</item>  <!-- Rock -->
+    <item>6.5;6.5;4.0;0.0;0.0;0.0;0.0;0.0;-6.5;-4.0;</item>   <!-- Small Speakers -->
+    <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;4.0;2.0;</item>     <!-- Treble Booster -->
+    <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;-6.5;-4.0;</item>   <!-- Treble Reducer -->
+    <item>-2.5;-2.5;0.0;0.0;0.0;0.0;0.0;3.5;1.5;-2.0;</item>  <!-- Vocal Booster -->
+    <item>custom</item>                                       <!-- Custom -->
+  </string-array><string-array name="xfisound_locontour_values" translatable="false">
+    <item>0</item>
+    <item>5</item>
+	<item>10</item>
+	<item>15</item>
+	<item>20</item>
+	<item>25</item>
+	<item>30</item>
+	<item>35</item>
+	<item>40</item>
+	<item>50</item>
+	<item>60</item>
+    <item>70</item>
+	<item>80</item>
+	<item>90</item>
+	<item>100</item>
+	<item>110</item>
+    <item>130</item>
+	<item>150</item>
+  </string-array><string-array name="equalizer_preset_modes" translatable="false">
+    <item>@string/eq_preset_acoustic</item>
+    <item>@string/eq_preset_bass_booster</item>
+    <item>@string/eq_preset_bass_reducer</item>
+    <item>@string/eq_preset_classical</item>
+    <item>@string/eq_preset_deep</item>
+    <item>@string/eq_preset_flat</item>
+    <item>@string/eq_preset_r_and_b</item>
+    <item>@string/eq_preset_rock</item>
+    <item>@string/eq_preset_small_speakers</item>
+    <item>@string/eq_preset_treble_booster</item>
+    <item>@string/eq_preset_treble_reducer</item>
+    <item>@string/eq_preset_vocal_booster</item>
+    <item>@string/eq_preset_custom</item>
+  </string-array><string-array name="xfisound_process_values" translatable="false">
+    <item>110</item>
+    <item>120</item>
+	<item>125</item>
+	<item>130</item>
+	<item>135</item>
+	<item>140</item>
+	<item>145</item>
+	<item>150</item>
+	<item>155</item>
+	<item>160</item>
+	<item>165</item>
+    <item>170</item>
+	<item>175</item>
+	<item>180</item>
+	<item>185</item>
+	<item>190</item>
+    <item>195</item>
+	<item>200</item>
+  </string-array><string-array name="multi_factor">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4x</item>
+    <item>5x</item>
+    <item>6x</item>
+    <item>7x</item>
+    <item>8x</item>
+    <item>9x</item>
+    <item>10x</item>
+    <item>Inf</item>
+  </string-array><string-array name="output_db_values" translatable="false">
+    <item>100</item>
+    <item>90</item>
+    <item>80</item>
+    <item>70</item>
+    <item>50</item>
+    <item>30</item>
+  </string-array><string-array name="cpu_platform_xhifi_values" translatable="false">
+    <item>libv4a_xhifi_ics_NOVFP.so</item>
+    <item>libv4a_xhifi_ics_VFP.so</item>
+    <item>libv4a_xhifi_ics_NEON.so</item>
+  </string-array><string-array name="playbackgain_ratio">
+    <item>Slight</item>
+    <item>Moderate</item>
+    <item>Extreme</item>
+  </string-array><string-array name="output_volume">
+    <item>6.0 dB</item>
+    <item>5.6 dB</item>
+    <item>5.1 dB</item>
+    <item>4.6 dB</item>
+    <item>4.1 dB</item>
+    <item>3.5 dB</item>
+    <item>2.9 dB</item>
+    <item>2.3 dB</item>
+    <item>1.6 dB</item>
+    <item>0.8 dB</item>   
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array><string-array name="cpu_platform_xhifi">
+    <item>Without VFP (PXA920)</item>
+    <item>With VFP</item>
+    <item>CortexAx with NEON</item>
+  </string-array><string-array name="output_db">
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-6.0 dB</item>
+    <item>-10.5 dB</item>
+  </string-array><string-array name="multi_factor_values" translatable="false">
+    <item>100</item>
+    <item>200</item>
+    <item>300</item>
+    <item>400</item>
+    <item>500</item>
+    <item>600</item>
+    <item>700</item>
+    <item>800</item>
+    <item>900</item>
+    <item>1000</item>
+    <item>3000</item>
+  </string-array><string-array name="compatible_mode">
+    <item>Normal</item>
+    <item>Compatible</item>
+  </string-array><string-array name="xfisound_locontour" translatable="false">
+    <item>0</item>
+	<item>5</item>
+	<item>10</item>
+	<item>15</item>
+	<item>20</item>
+	<item>25</item>
+	<item>30</item>
+	<item>35</item>
+	<item>40</item>
+	<item>45</item>
+    <item>50</item>
+	<item>55</item>
+	<item>60</item>
+	<item>65</item>
+	<item>70</item>
+    <item>75</item>
+	<item>80</item>
+	<item>100</item>
+  </string-array><string-array name="xfisound_process" translatable="false">
+    <item>0</item>
+	<item>5</item>
+	<item>10</item>
+	<item>15</item>
+	<item>20</item>
+	<item>25</item>
+	<item>30</item>
+	<item>35</item>
+	<item>40</item>
+	<item>45</item>
+    <item>50</item>
+	<item>55</item>
+	<item>60</item>
+	<item>65</item>
+	<item>70</item>
+    <item>75</item>
+	<item>80</item>
+	<item>100</item>
+  </string-array><string-array name="cpu_platform_fx_values" translatable="false">
+    <item>libv4a_fx_ics_ARMv5TE.so</item>
+    <item>libv4a_fx_ics_T2.so</item>
+    <item>libv4a_fx_ics_CortexA8.so</item>
+    <item>libv4a_fx_ics_CortexA9.so</item>
+  </string-array><string-array name="output_volume_values" translatable="false">
+    <item>200</item>
+    <item>190</item>
+    <item>180</item>
+    <item>170</item>
+    <item>160</item>
+    <item>150</item>
+    <item>140</item>
+    <item>130</item>
+    <item>120</item>
+    <item>110</item>
+    <item>100</item>
+    <item>90</item>
+    <item>80</item>
+    <item>70</item>
+    <item>60</item>
+    <item>50</item>
+    <item>40</item>
+    <item>30</item>
+    <item>20</item>
+    <item>10</item>
+    <item>5</item>
+    <item>1</item>
+  </string-array><string-array name="playbackgain_ratio_values" translatable="false">
+    <item>50</item>
+    <item>100</item>
+    <item>300</item>
+  </string-array><string-array name="cpu_platform_fx">
+    <item>Very Old ARM (ARMv5TE)</item>
+    <item>NVIDIA Tegra2</item>
+    <item>CortexA8 with NEON</item>
+    <item>CortexA9/15 with NEON</item>
+  </string-array><string-array name="compatible_mode_values" translatable="false">
+    <item>global</item>
+    <item>local</item>
+  </string-array></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values\colors.xml" qualifiers=""><color name="name">#00000000</color><color name="eq_bg">#8c9eff</color><color name="mwhite">#8c9eff</color><color name="primary">#5c6bc0</color><color name="eq_white">#8c9eff</color><color name="action_bar_divider">#e5e5e5</color><color name="primary_trans">#3f51b5</color><color name="eq_grey">#EEEEEE</color><color name="eq_yellow">#80f0ff00</color><color name="black">#ff000000</color><color name="cb">#000000</color><color name="eq_dark">#424242</color><color name="eq_holo_dark">#800099cc</color><color name="freq_hl">#3F51B5</color><color name="freq_hl2">#3F51B5</color><color name="eq_holo_bright">#8000ddff</color><color name="bar">#00000000</color><color name="grid_lines">#22ffffff</color><color name="eq_red">#80ff0000</color><color name="eq_darkgrey">#757575</color><color name="eq_middle">#BDBDBD</color><color name="off_white">#00ff00</color><color name="cb_shader_alpha">#44ccffff</color><color name="eq_holo_blue">#8033b5e5</color><color name="cb_shader">#ffccffff</color><color name="window_bg">#3f51b5</color><color name="white">#ffeeeeee</color></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="navigation_drawer_width">240dp</dimen><dimen name="bar_width">7.0dip</dimen></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values\strings.xml" qualifiers=""><string name="eq_preset_bass_booster">Bass Booster</string><string name="text_service_error">Failed to communicate with ViPER4Android service.</string><string name="pref_equalizer_summary_on">FIREqualizer is enabled</string><string name="pref_fx_master_title">Master Power</string><string name="text_changelog">Changelog</string><string name="text_profileload_err">Can not load the profile.</string><string name="text_select_cpu">Please select your CPU</string><string name="eq_preset_r_and_b">R&amp;B</string><string name="text_drv_status_view">
+\n
+\nDriver Version: %1$s
+\nEnabled: %2$s
+\nStatus: %3$s
+\nProcessing: %4$s
+\nPrecious: %5$s
+\nSampling Rate: %6$d
+\nChannels: %7$d
+\n
+    </string><string name="speaker_title">Phone Speaker</string><string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string><string name="text_enabled">Enabled</string><string name="text_token_lost">ViPER4Android: Effect control failure, try to reload the driver.</string><string name="text_showtrayicon">Show Notification</string><string name="pref_playback_output_threshold">Max Output</string><string name="text_lockeffect">Lock Effect Mode</string><string name="dialog_effect">Effect Strength</string><string name="eq_preset_classical">Classical</string><string name="text_loadfxprofile">Load Effect Profile</string><string name="text_opensafemode">Switch to Safe Mode</string><string name="text_drvinst_failed">Driver install failed, please comfirm your phone has been rooted and busybox installed.</string><string name="pref_xfisound_title">Audio Reconstruct</string><string name="pref_xfisound_summary_off">Audio reconstruct is disabled</string><string name="text_modeswitchok">Driver mode switch succeed, please reboot your phone.</string><string name="about_text">***About ViPER4Android***
+\n
+\n\'libv4a_xx_xx.so\' is the kernel of ViPER4Android.
+\nCopyright © 2006-2016, vipercn.com. All rights reserved.
+\nWithout the official permit, commercial use is disallowed.
+\nOfficial Forum: forum.vipersaudio.com
+\n
+\n\'ViPER4Android.apk\' is the control panel of ViPER4Android.
+\nBased on some code of Cyanogenmod\'s DSPManager.
+\n
+\nVersion %1$s (XHiFi), Codename "X-Factor".
+\n
+    </string><string name="eq_preset_vocal_booster">Vocal Booster</string><string name="pref_equalizer_preset_title">Select Preset</string><string name="pref_xfisound_locontour_title">Select Lo Contour</string><string name="pref_xfisound_process">Hi Clarity</string><string name="dsp_settings_headset">Effect Settings - Headset</string><string name="text_drvuninst_confim">Do you really want to uninstall v4a driver?</string><string name="eq_preset_custom">Custom</string><string name="about_title">Help And About</string><string name="text_drvinst_ok">Driver installed, please reboot your phone.</string><string name="pref_playback_summary_off">PlaybackAGC is disabled</string><string name="text_headset">Headset</string><string name="eq_preset_treble_booster">Treble Booster</string><string name="text_disabled">Disabled</string><string name="eq_preset_treble_reducer">Treble Reducer</string><string name="text_rwsd_error">Can not read/write external storage.</string><string name="app_name">ViPER4Android XHiFi</string><string name="pref_dsp_enable">Enable</string><string name="eq_preset_rock">Rock</string><string name="text_effectprofile">Effect Profile</string><string name="pref_output_gain">Output Gain</string><string name="pref_playback_maxgain">Max Gain</string><string name="text_closesafemode">Switch to Normal Mode</string><string name="audio_effects">Audio Effects</string><string name="pref_fx_master_summary_off">V4A-XHiFi is powered off</string><string name="text_normal">Normal</string><string name="text_savefxprofile">Save Effect Profile</string><string name="text_cancel">Cancel</string><string name="text_user_statistics">v4a.active</string><string name="text_modeswitchfailed">Driver mode switch failed, please confirm busybox has been installed.</string><string name="text_pleaseinputname">Please input the name of profile
+\nDo not include \'=\'
+    </string><string name="select_configuration_title">ViPER4Android XHiFi</string><string name="eq_preset_bass_reducer">Bass Reducer</string><string name="text_profilesaved_err">Can not save the profile, the name already exists.</string><string name="text_profilesaved_ok">Profile saved.</string><string name="pref_fx_master_summary_on">V4A-XHiFi is powered on</string><string name="eq_preset_flat">Flat</string><string name="text_abnormal">Abnormal</string><string name="pref_equalizer_enable">Enable</string><string name="pref_xfisound_summary_on">Audio reconstruct is enabled</string><string name="bluetooth_title">Bluetooth Device</string><string name="text_speaker">Speaker</string><string name="text_help_content">***General help***
+\n
+\n\'Install Driver\' - Install/Update ViPER4Android effect driver.
+\n\'Uninstall Driver\' - Uninstall ViPER4Android effect driver.
+\n\'Switch to Safe Mode\' - Switch the driver to compatible with OpenSL arch.
+\n\'Switch to Normal Mode\' - Switch the driver to unique arch.
+\n\'FX Compatible Mode\' - Set effect compatible mode.
+\n    \'Normal\' - Make ViPER4Android as a global effect.
+\n    \'Compatible\' - Make ViPER4Android as a local effect.
+\n
+\n<b>Do you got no v4a effect on all/most mediaplayers?</b>
+\n    You can switch the driver to safe mode (Switch to Safe Mode) and try again.
+\n    If still got no effect, you can switch the fx mode to compatible and try again.
+\n
+\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b>
+    </string><string name="headset_title">Headset</string><string name="text_bluetooth">Bluetooth</string><string name="pref_xfisound_process_title">Select Hi Clarity</string><string name="text_su_missing">Root permission (su binary) required.</string><string name="text_profilesaved_overwrite">The profile name already exists, do you want to overwrite?</string><string name="text_drv_status">Driver Status</string><string name="pref_xfisound_enable">Enable</string><string name="text_busybox_missing">Busybox not found.
+\nIn order to use ViPER4Android, you need to install busybox first.
+    </string><string name="text_drvvernotmatch">In order to use ViPER4Android, you need to install/update the V4A driver.
+\nThe installation process will be done automatically.
+\nInstall/update now?
+    </string><string name="text_no">No</string><string name="pref_playback_title">Playback Gain Control</string><string name="text_drvuninst_ok">Driver uninstalled, please reboot your phone.</string><string name="text_yes">Yes</string><string name="text_drv_blank"/><string name="dsp_settings_speaker">Effect Settings - Phone Speaker</string><string name="text_uninstall">Uninstall Driver</string><string name="text_precious_float_unit">Bit Float</string><string name="pref_fx_limiter_title">Master Gate (Limiter)</string><string name="text_install">Install Driver</string><string name="text_view_forum">Forum</string><string name="pref_equalizer_summary_off">FIREqualizer is disabled</string><string name="text_commode">FX Compatible Mode</string><string name="eq_preset_small_speakers">Small Speakers</string><string name="pref_xfisound_locontour">Lo Contour</string><string name="eq_preset_deep">Deep</string><string name="text_ok">OK</string><string name="pref_fx_limiter_threshold">Limit Threshold</string><string name="pref_playback_summary_on">PlaybackAGC is enabled</string><string name="pref_effect_title">Select Effect Strength</string><string name="text_profileload_ok">Profile loaded.</string><string name="dsp_settings_bluetooth">Effect Settings - Bluetooth Device</string><string name="eq_preset_acoustic">Acoustic</string><string name="pref_equalizer_title">FIREqualizer</string></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values-es\strings.xml" qualifiers="es"><string name="text_uninstall">Desinstalar Driver</string><string name="text_drvvernotmatch">"Para utilizar ViPER4Android, necesita instalar / actualizar el controlador V4A. 
+El proceso de instalación se realizará automáticamente. 
+Instalar/actualizar ahora?"</string><string name="text_drv_blank"/><string name="text_view_forum">Forum</string><string name="text_drv_status_view">"
+ 
+Version Driver: %1$s 
+Activado: %2$s 
+Estado: %3$s 
+Procesamiento: %4$s 
+Tipo: %5$s 
+Frecuencia de muestreo: %6$d 
+Canales: %7$d
+"</string><string name="text_headset">Auriculares</string><string name="pref_playback_summary_off">PlaybackAGC esta desactivado</string><string name="audio_effects">Efectos de Audio</string><string name="pref_equalizer_summary_off">FIREqualizador esta desactivado</string><string name="eq_preset_rock">Rock</string><string name="pref_xfisound_summary_off">Reconstrucción de Audio Desactivado</string><string name="eq_preset_vocal_booster">Amplificar Voz</string><string name="pref_fx_master_title">Potencia Principal</string><string name="text_help_content">"***General help*** 
+ 
+'Instalar Driver' - Instalar/Actualizar driver efecto ViPER4. 
+'Desinstalar Driver' - Desinstalar driver efecto ViPER4. 
+'Cambiar a Modo Seguro' - Cambie el driver a compatible con OpenSL arch. 
+'Cambiar a Modo Normal' - Cambie el driver único arch. 
+'Modo Compatible FX' - Ajuste el modo efecto compatible. 
+'Normal' - Haga ViPER4 como un efecto global. 
+ 'Compatible' - Haga ViPER4 como un efecto local. 
+ 'Traducción es' - The DarkRoom Team. 
+ 
+"<b>No tienes el efecto ViPER4 en ningun reproductor?</b>" 
+ Puede cambiar el controlador al modo seguro (cambia a modo seguro) y vuelva a intentarlo. 
+ Si todavía no tiene ningún efecto, puede cambiar el modo de fx a compatible y vuelva a intentarlo. 
+ 
+"<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b>" "</string><string name="pref_fx_limiter_title">Potencia Principal (limitador)</string><string name="text_install">Instalar Driver</string><string name="text_effectprofile">Perfiles de Efectos</string><string name="pref_fx_limiter_threshold">Límite Umbral</string><string name="text_lockeffect">Bloquear modo de efectos</string><string name="text_profileload_err">No se puede cargar el perfil.</string><string name="text_commode">Modo FX Compatible</string><string name="eq_preset_acoustic">Acústico</string><string name="text_drv_status">Estado del driver</string><string name="pref_xfisound_locontour">Lo Contour</string><string name="text_enabled">Habilitar</string><string name="eq_preset_small_speakers">Altavoces Pequeños</string><string name="select_configuration_title">ViPER4Android XHiFi</string><string name="text_token_lost">ViPER4Android: Error de control de efectos, intenta volver a cargar el controlador.</string><string name="text_drvinst_failed">Driver no instalado, por favor confirme que su teléfono es Root y tiene busybox instalado.</string><string name="eq_preset_custom">Custom</string><string name="text_bluetooth">Bluetooth</string><string name="pref_xfisound_process">Alta Claridad</string><string name="text_precious_float_unit">Bit Flotante</string><string name="pref_playback_summary_on">PlaybackAGC esta activado</string><string name="dsp_settings_speaker">Ajustes de Efectos - Altavoz Teléfono</string><string name="pref_playback_maxgain">Max Ganancia</string><string name="pref_xfisound_summary_on">Reconstrucción de Audio Activado</string><string name="eq_preset_r_and_b">R&amp;B</string><string name="pref_xfisound_title">Reconstrucción de Audio</string><string name="text_no">No</string><string name="eq_preset_bass_booster">Amplificar Graves</string><string name="pref_equalizer_title">FIREqualizador</string><string name="app_name">ViPER4Android XHiFi</string><string name="pref_effect_title">Seleccione Efecto de Intensidad</string><string name="eq_preset_classical">Clasica</string><string name="text_profilesaved_err">No se puede guardar el perfil, el nombre ya existe.</string><string name="text_abnormal">Anormal</string><string name="text_drvuninst_ok">Driver desinstalado, por favor reinicie su teléfono.</string><string name="dialog_effect">Efecto de Intensidad</string><string name="text_modeswitchfailed">Driver del controlador aplicado sin éxito, confirme busybox se ha instalado, por favor.</string><string name="pref_xfisound_enable">Habilitar</string><string name="pref_xfisound_locontour_title">Seleccionar Lo Contour</string><string name="pref_output_gain">Potencia de Salida</string><string name="pref_xfisound_process_title">Seleccionar Alta Claridad</string><string name="text_profilesaved_overwrite">El nombre del perfil ya existe, ¿desea sobrescribir?</string><string name="eq_preset_bass_reducer">Reducir Graves</string><string name="text_ok">Aceptar</string><string name="text_showtrayicon">Mostrar notificación</string><string name="text_disabled">Desactivado</string><string name="text_pleaseinputname">"Por favor, introduzca el nombre del perfil 
+No incluido '='"</string><string name="pref_playback_output_threshold">Max Potencia de Salida</string><string name="eq_preset_deep">Profundo</string><string name="text_drvuninst_confim">¿Realmente desea desinstalar el controlador v4a?</string><string name="text_profilesaved_ok">Perfil Guardado.</string><string name="text_busybox_missing">"Busybox no encontrado. 
+Para utilizar ViPER4Android, necesita instalar busybox primero."</string><string name="pref_fx_master_summary_off">4A-FX esta Apagado</string><string name="text_speaker">Altavoz</string><string name="text_normal">Normal</string><string name="text_opensafemode">Cambie al modo seguro</string><string name="text_savefxprofile">Guardar Perfiles de Efectos</string><string name="text_closesafemode">Cambie al modo normal</string><string name="text_su_missing">Permisos Root (su binary) requerido.</string><string name="text_modeswitchok">Driver del controlador aplicado con éxito, por favor reinicie su teléfono.</string><string name="text_cancel">Cancelar</string><string name="dsp_settings_headset">Ajustes de Efectos - Auriculares</string><string name="text_loadfxprofile">Cargar Perfiles de Efectos</string><string name="pref_equalizer_summary_on">FIREqualizador esta activado</string><string name="text_profileload_ok">Perfil Cargado.</string><string name="headset_title">Auriculares</string><string name="pref_equalizer_preset_title">Seleccionar Ajuste</string><string name="bluetooth_title">Dispositivo Bluetooth</string><string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string><string name="text_service_error">Error al comunicarse con el servicio ViPER4Android.</string><string name="about_title">Ayuda y Acerca de</string><string name="pref_playback_title">Control de Potencia reproducción</string><string name="about_text">"***About ViPER4Android*** 
+ 
+'libv4a_xx_xx.so' is the kernel of ViPER4Android. 
+Copyright © 2006-2016, vipercn.com. All rights reserved. 
+Without the official permit, commercial use is disallowed. 
+Official Forum: forum.vipersaudio.com 
+ 
+'ViPER4Android.apk' is the control panel of ViPER4Android. 
+Based on some code of Cyanogenmod's DSPManager. 
+ 
+Version %1$s (XHiFi), Codename X-Factor. 
+"</string><string name="text_select_cpu">Por favor seleccione su CPU</string><string name="text_changelog">Changelog</string><string name="pref_equalizer_enable">Habilitar</string><string name="eq_preset_treble_reducer">Reducir Agudos</string><string name="dsp_settings_bluetooth">Ajustes de Efectos - Dispositivo Bluetooth</string><string name="text_drvinst_ok">Driver instalado, por favor reinicie su teléfono.</string><string name="eq_preset_treble_booster">Amplificar Agudos</string><string name="pref_dsp_enable">Habilitar</string><string name="text_user_statistics">v4a. activado</string><string name="eq_preset_flat">Plano</string><string name="speaker_title">Altavoz Teléfono</string><string name="text_yes">Si</string><string name="text_rwsd_error">No se puede leer/escribir en almacenamiento externo.</string><string name="pref_fx_master_summary_on">V4A-FX esta Conectado</string></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values-ru\arrays.xml" qualifiers="ru"><string-array name="equalizer_preset_modes">
+        <item>@string/eq_preset_acoustic</item>
+        <item>@string/eq_preset_bass_booster</item>
+        <item>@string/eq_preset_bass_reducer</item>
+        <item>@string/eq_preset_classical</item>
+        <item>@string/eq_preset_deep</item>
+        <item>@string/eq_preset_flat</item>
+        <item>@string/eq_preset_r_and_b</item>
+        <item>@string/eq_preset_rock</item>
+        <item>@string/eq_preset_small_speakers</item>
+        <item>@string/eq_preset_treble_booster</item>
+        <item>@string/eq_preset_treble_reducer</item>
+        <item>@string/eq_preset_vocal_booster</item>
+        <item>@string/eq_preset_custom</item>
+    </string-array><string-array name="equalizer_preset_values">
+        <item>4.5;4.5;3.5;1.2;1.0;0.5;1.4;1.75;3.5;2.5;</item>
+        <item>10.0;6.5;4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
+        <item>-10.5;-6.5;-4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
+        <item>4.0;4.0;3.25;1.0;0.0;0.0;-1.0;-0.5;2.0;2.0;</item>
+        <item>4.0;4.0;0.5;0.0;0.0;0.0;0.0;1.5;-4.0;-4.5;</item>
+        <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
+        <item>5.5;5.5;3.5;0.0;0.0;0.0;0.0;-1.75;1.5;2.5;</item>
+        <item>4.5;4.5;2.75;0.0;0.0;0.0;0.0;-0.5;2.75;4.0;</item>
+        <item>6.5;6.5;4.0;0.0;0.0;0.0;0.0;0.0;-6.5;-4.0;</item>
+        <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;4.0;2.0;</item>
+        <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;-6.5;-4.0;</item>
+        <item>-2.5;-2.5;0.0;0.0;0.0;0.0;0.0;3.5;1.5;-2.0;</item>
+        <item>Пользовательский</item>
+    </string-array><string-array name="cpu_platform_xhifi">
+        <item>Без VFP (PXA920)</item>
+        <item>С VFP</item>
+        <item>CortexAx with NEON</item>
+    </string-array><string-array name="xfisound_process_values">
+        <item>110</item>
+        <item>120</item>
+        <item>125</item>
+        <item>130</item>
+        <item>135</item>
+        <item>140</item>
+        <item>145</item>
+        <item>150</item>
+        <item>155</item>
+        <item>160</item>
+        <item>165</item>
+        <item>170</item>
+        <item>175</item>
+        <item>180</item>
+        <item>185</item>
+        <item>190</item>
+        <item>195</item>
+        <item>200</item>
+    </string-array><string-array name="xfisound_locontour">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array><string-array name="multi_factor">
+        <item>1x</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>6x</item>
+        <item>7x</item>
+        <item>8x</item>
+        <item>9x</item>
+        <item>10x</item>
+        <item>Бесконечно</item>
+    </string-array><string-array name="output_db">
+        <item>0 дБ</item>
+        <item>-1.0 дБ</item>
+        <item>-1.9 дБ</item>
+        <item>-3.0 дБ</item>
+        <item>-6.0 дБ</item>
+        <item>-10.5 дБ</item>
+    </string-array><string-array name="cpu_platform_xhifi_values">
+        <item>libv4a_xhifi_ics_NOVFP.so</item>
+        <item>libv4a_xhifi_ics_VFP.so</item>
+        <item>libv4a_xhifi_ics_NEON.so</item>
+    </string-array><string-array name="compatible_mode">
+		<item>Нормальный</item>
+        <item>Совместимый</item>
+    </string-array><string-array name="xfisound_process">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array><string-array name="output_volume_values">
+        <item>200</item>
+        <item>190</item>
+        <item>180</item>
+        <item>170</item>
+        <item>160</item>
+        <item>150</item>
+        <item>140</item>
+        <item>130</item>
+        <item>120</item>
+        <item>110</item>
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array><string-array name="playbackgain_ratio">
+        <item>Слабый</item>
+        <item>Средний</item>
+        <item>Максимальный</item>
+    </string-array><string-array name="output_db_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>50</item>
+        <item>30</item>
+    </string-array><string-array name="multi_factor_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>3000</item>
+    </string-array><string-array name="cpu_platform_fx_values">
+        <item>libv4a_fx_ics_ARMv5TE.so</item>
+        <item>libv4a_fx_ics_T2.so</item>
+        <item>libv4a_fx_ics_CortexA8.so</item>
+        <item>libv4a_fx_ics_CortexA9.so</item>
+    </string-array><string-array name="output_volume">
+        <item>6.0 дБ</item>
+        <item>5.6 дБ</item>
+        <item>5.1 дБ</item>
+        <item>4.6 дБ</item>
+        <item>4.1 дБ</item>
+        <item>3.5 дБ</item>
+        <item>2.9 дБ</item>
+        <item>2.3 дБ</item>
+        <item>1.6 дБ</item>
+        <item>0.8 дБ</item>
+        <item>0 дБ</item>
+        <item>-1.0 дБ</item>
+        <item>-1.9 дБ</item>
+        <item>-3.0 дБ</item>
+        <item>-4.4 дБ</item>
+        <item>-6.0 дБ</item>
+        <item>-8.0 дБ</item>
+        <item>-10.5 дБ</item>
+        <item>-14.0 дБ</item>
+        <item>-20.0 дБ</item>
+        <item>-26.0 дБ</item>
+        <item>-40.0 дБ</item>
+</string-array><string-array name="playbackgain_ratio_values">
+        <item>50</item>
+        <item>100</item>
+        <item>300</item>
+    </string-array><string-array name="xfisound_locontour_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>130</item>
+        <item>150</item>
+    </string-array><string-array name="cpu_platform_fx">
+        <item>Старые ARM (ARMv5TE)</item>
+        <item>NVIDIA Tegra2</item>
+        <item>CortexA8 с NEON</item>
+        <item>CortexA9/15 с NEON</item>
+    </string-array><string-array name="compatible_mode_values">
+        <item>глобально</item>
+        <item>локально</item>
+    </string-array></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values-ru\strings.xml" qualifiers="ru"><string name="pref_equalizer_enable">Включение</string><string name="text_profilesaved_err">Невозможно сохранить профиль, т.к. профиль с таким названием уже существует.</string><string name="pref_playback_summary_off">Автоматическая регулировка усиления (AGC) включена</string><string name="pref_equalizer_preset_title">Предустановки</string><string name="eq_preset_small_speakers">Маленькие динамики</string><string name="pref_xfisound_summary_off">Восстановление аудио отключено</string><string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string><string name="text_drv_status_view">
+\n
+\nВерсия драйвера: %1$s 
+\nV4A включен: %2$s 
+\nСостояние: %3$s 
+\nОбработка: %4$s 
+\nКачество: %5$s 
+\nЧастота дискретизации: %6$d 
+\nКаналов: %7$d 
+\n
+</string><string name="text_drv_blank"/><string name="text_rwsd_error">Не удается произвести чтение/запись с внешних накопителей.</string><string name="pref_xfisound_locontour_title">Выберите значение звукового контура</string><string name="eq_preset_treble_reducer">Ослабленные ВЧ</string><string name="pref_fx_master_title">Обработка</string><string name="pref_fx_limiter_threshold">Предельный порог</string><string name="pref_effect_title">Выберите уровень</string><string name="text_profileload_err">Не удается применить профиль.</string><string name="text_select_cpu">Пожалуйста, выберите ваш процессор (кодек)</string><string name="text_view_forum">Форум</string><string name="text_drvuninst_confim">Вы действительно хотите удалить v4a драйвер?</string><string name="eq_preset_custom">Пользовательская</string><string name="text_token_lost">ViPER4Android: Невозможно запустить эффекты, попробуйте обновить драйвера.</string><string name="text_disabled">отключено</string><string name="eq_preset_bass_reducer">Ослабленные НЧ</string><string name="text_modeswitchfailed">Драйвер не установлен. Пожалуйста, проверьте наличие busybox.</string><string name="select_configuration_title">ViPER4Android XHiFi</string><string name="pref_xfisound_locontour">Звуковой контур</string><string name="about_title">Описание и помощь</string><string name="text_uninstall">Удалить драйвер</string><string name="app_name">ViPER4Android XHiFi</string><string name="text_headset">Наушники</string><string name="text_drv_status">Состояние драйвера</string><string name="pref_fx_master_summary_off">V4A-XHiFi отключен</string><string name="text_ok">Ok</string><string name="pref_fx_limiter_title">Ограничитель</string><string name="audio_effects">Аудио эффекты</string><string name="pref_xfisound_process">Четкость звука</string><string name="text_closesafemode">Обычный режим</string><string name="text_profilesaved_overwrite">Профиль с таким названием уже существует, Вы хотите перезаписать его?</string><string name="pref_xfisound_process_title">Выберите значение четкости звука</string><string name="pref_fx_master_summary_on">V4A-XHiFi включен</string><string name="text_enabled">Включено</string><string name="text_drvinst_ok">Драйвер установлен. Пожалуйста, перезагрузите устройство.</string><string name="text_drvuninst_ok">Драйвер удален. Пожалуйста, перезагрузите устройство.</string><string name="text_modeswitchok">Драйвер установлен успешно. Пожалуйста, перезагрузите устройство.</string><string name="text_no">Нет</string><string name="pref_dsp_enable">Включение</string><string name="text_speaker">Динамик</string><string name="text_showtrayicon">Показывать уведомления</string><string name="pref_equalizer_summary_on">Эквалайзер включен</string><string name="dsp_settings_speaker">Настройка эффектов - Динамик</string><string name="text_savefxprofile">Сохранить профиль</string><string name="text_help_content">"***Общая справка*** 
+\n
+\n'Install Driver' - Установить драйвер эффектов.
+\n'Uninstall Driver' - Удалить драйвер эффектов. 
+\n'Switch to Safe Mode' - Переключить драйвер в безопасный режим. 
+\n'Switch to Normal Mode' - Переключить драйвер в нормальный режим. 
+\n'FX Compatible Mode' - Установить режим fx-совместимости. 
+\n'Normal' - Сделать ViPER4Android глобальным эффектом. 
+\n'Compatible' - Сделать ViPER4Android локальным эффектом. 
+\n
+\n<b>Не работают эффекты в сторонних медиаплеерах?</b>
+\nПереключить драйвер в безопасный режим (переключите в Safe Mode) и попробуйте снова. 
+\nЕсли не помогло, можно переключиться в режим fx-совместимости и попробовать еще раз. 
+\n
+\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string><string name="pref_xfisound_title">Восстановление Аудио</string><string name="about_text">"***О ViPER4Android***
+\n
+\n'libv4a_xx_xx.so' это ядро ViPER4Android. 
+\n'ViPER4Android.apk' это панель управления ViPER4Android. 
+\nОснова приложения - код DSPManager для CyanogenMod.
+\nВерсия %1$s (XHiFi), Codename X-Factor.
+\n
+\nCopyright © 2006-2016, vipercn.com. All rights reserved.
+\nКоммерческое использование без официального разрешения запрещено.
+\nОфициальный форум: forum.vipersaudio.com
+</string><string name="text_lockeffect">Режим блокировки</string><string name="pref_equalizer_title">Эквалайзер</string><string name="eq_preset_rock">Рок</string><string name="text_abnormal">Ненормально</string><string name="text_changelog">Что нового</string><string name="eq_preset_r_and_b">R&amp;B</string><string name="dialog_effect">Уровень усиления</string><string name="text_precious_float_unit">Bit Float</string><string name="text_effectprofile">Профиль эффектов</string><string name="text_drvinst_failed">Не удалось установить драйвер. Проверьте наличие root-прав и наличие busybox.</string><string name="pref_playback_summary_on">Автоматическая регулировка усиления (AGC) включена</string><string name="pref_playback_output_threshold">Порог выходного сигнала</string><string name="eq_preset_flat">Плоский</string><string name="text_su_missing">Требуется наличие Root прав (su binary).</string><string name="pref_xfisound_enable">Включение</string><string name="dsp_settings_bluetooth">Настройка эффектов - Bluetooth</string><string name="text_install">Установить драйвер</string><string name="eq_preset_classical">Классика</string><string name="text_service_error">Не удалось запустить ViPER4Android.</string><string name="bluetooth_title">BLUETOOTH</string><string name="text_loadfxprofile">Загрузить профиль</string><string name="headset_title">НАУШНИКИ</string><string name="text_profilesaved_ok">Профиль сохранен.</string><string name="pref_xfisound_summary_on">Восстановление аудио включено</string><string name="text_commode">Режим FX-совместимости</string><string name="eq_preset_bass_booster">Усиленные НЧ</string><string name="text_busybox_missing">Busybox не обнаружен.
+\nДля использования ViPER4Android необходимо установить Busybox.</string><string name="pref_playback_title">Регулировка усиления</string><string name="eq_preset_vocal_booster">Усиленный вокал</string><string name="text_yes">Да</string><string name="text_pleaseinputname">Пожалуйста, введите Название профиля 
+\nИсключите знаки \'=\'</string><string name="text_profileload_ok">Профиль применен.</string><string name="dsp_settings_headset">Настройка эффектов - Наушники</string><string name="pref_output_gain">Усиление выходного сигнала</string><string name="text_opensafemode">Безопасный режим</string><string name="text_bluetooth">Bluetooth</string><string name="eq_preset_acoustic">Акустика</string><string name="text_cancel">Отмена</string><string name="text_normal">Нормально</string><string name="pref_playback_maxgain">Максимальное усиление</string><string name="text_user_statistics">v4a.active</string><string name="pref_equalizer_summary_off">Эквалайзер отключен</string><string name="speaker_title">ДИНАМИК</string><string name="eq_preset_treble_booster">Усиленные ВЧ</string><string name="eq_preset_deep">Глубина</string><string name="text_drvvernotmatch">Для использования ViPER4Android, необходимо установить/обновить драйвер V4A.
+\nПроцесс установки пройдет автоматическим. 
+\nУстановить/Обновить сейчас?</string></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values-v21\styles.xml" qualifiers="v21"><style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/action_bar_style</item>
+    </style><style name="AppTheme_verydark" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="android:colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:colorAccent">#FAFAFA</item>
+        <item name="android:colorControlNormal">#FAFAFA</item>
+        <item name="android:colorControlHighlight">#BDBDBD</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style><style name="AppTheme_indigo" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#3f51b5</item>
+        <item name="android:colorPrimaryDark">#303f9f</item>
+        <item name="android:colorAccent">#536DFE</item>
+        <item name="android:colorControlNormal">#3f51b5</item>
+        <item name="android:colorControlHighlight">#303f9f</item>
+        <!--<item name="android:windowBackground">@color/black</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+
+    </style><style name="AppTheme_gray" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#303030</item>
+        <item name="android:colorPrimaryDark">#303030</item>
+        <item name="android:navigationBarColor">#303030</item>
+        <item name="android:colorAccent">#FAFAFA</item>
+        <item name="android:colorControlNormal">#FAFAFA</item>
+        <item name="android:colorControlHighlight">#BDBDBD</item>
+    </style><style name="AppTheme_darkpurple" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#BA68C8</item>
+        <item name="android:colorPrimaryDark">#AB47BC</item>
+        <item name="android:navigationBarColor">#AB47BC</item>
+        <item name="android:colorAccent">#BA68C8</item>
+        <item name="android:colorControlNormal">#BA68C8</item>
+        <item name="android:colorControlHighlight">#CE93D8</item>
+        <!--<item name="android:windowBackground">@color/black</item> -->
+    </style><style name="AppTheme_Indigo_Light" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#3f51b5</item>
+        <item name="android:colorPrimaryDark">#303f9f</item>
+        <item name="android:colorAccent">#536DFE</item>
+        <item name="android:colorControlNormal">#3f51b5</item>
+        <item name="android:colorControlHighlight">#303f9f</item>
+    </style><style name="AppTheme_white" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#000000</item>
+        <item name="android:colorPrimaryDark">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:colorAccent">#303030</item>
+        <item name="android:colorControlNormal">#303030</item>
+        <item name="android:colorControlHighlight">#BDBDBD</item>
+        <!-- <item name="android:windowBackground">@android:style/windowBackground</item> -->
+    </style><style name="AppTheme_default" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#7B1FA2</item>
+        <item name="android:colorPrimaryDark">#4A148C</item>
+        <item name="android:navigationBarColor">#7B1FA2</item>
+        <item name="android:colorAccent">#7B1FA2</item>
+        <item name="android:colorControlNormal">#7B1FA2</item>
+        <item name="android:colorControlHighlight">#6A1B9A</item>
+    </style><style name="action_bar_style" parent="@android:style/Widget.Material.ActionBar"/><style name="AppTheme_indigo_start" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">#3f51b5</item>
+        <item name="android:colorPrimaryDark">#3f51b5</item>
+        <item name="android:navigationBarColor">#3f51b5</item>
+        <item name="android:colorAccent">#536DFE</item>
+        <item name="android:colorControlNormal">#3f51b5</item>
+        <item name="android:colorControlHighlight">#303f9f</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+        <!-- <item name="android:windowTranslucentNavigation">true</item> -->
+
+    </style><style name="AppTheme_indigo_transration" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#3f51b5</item>
+        <item name="android:colorPrimaryDark">#303f9f</item>
+        <!-- <item name="android:navigationBarColor">#7B1FA2</item> -->
+        <item name="android:colorAccent">#536DFE</item>
+        <item name="android:colorControlNormal">#3f51b5</item>
+        <item name="android:colorControlHighlight">#303f9f</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style><style name="AppTheme_verydarkpurple" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#7B1FA2</item>
+        <item name="android:colorPrimaryDark">#6A1B9A</item>
+        <!-- <item name="android:navigationBarColor">#7B1FA2</item> -->
+        <item name="android:colorAccent">#BA68C8</item>
+        <item name="android:colorControlNormal">#BA68C8</item>
+        <item name="android:colorControlHighlight">#CE93D8</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp"><dimen name="activity_horizontal_margin">64dp</dimen></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values-zh-rCN\arrays.xml" qualifiers="zh-rCN"><string-array name="compatible_mode">
+    <item>正常模式</item>
+    <item>兼容模式</item>
+  </string-array><string-array name="cpu_platform_xhifi">
+    <item>没有VFP(PXA920)</item>
+    <item>带有VFP的ARM</item>
+    <item>带有NEON的A系列</item>
+  </string-array><string-array name="playbackgain_ratio">
+    <item>轻微</item>
+    <item>中等</item>
+    <item>极端</item>
+  </string-array><string-array name="output_db">
+    <item>0 分贝</item>
+    <item>-1.0 分贝</item>
+    <item>-1.9 分贝</item>
+    <item>-3.0 分贝</item>
+    <item>-6.0 分贝</item>
+    <item>-10.5 分贝</item>
+  </string-array><string-array name="cpu_platform_fx">
+    <item>老设备(ARMv5TE)</item>
+    <item>英伟达图睿2</item>
+    <item>带有NEON的A8</item>
+    <item>带有NEON的A9</item>
+  </string-array><string-array name="output_volume">
+    <item>6.0 分贝</item>
+    <item>5.6 分贝</item>
+    <item>5.1 分贝</item>
+    <item>4.6 分贝</item>
+    <item>4.1 分贝</item>
+    <item>3.5 分贝</item>
+    <item>2.9 分贝</item>
+    <item>2.3 分贝</item>
+    <item>1.6 分贝</item>
+    <item>0.8 分贝</item>   
+    <item>0 分贝</item>
+    <item>-1.0 分贝</item>
+    <item>-1.9 分贝</item>
+    <item>-3.0 分贝</item>
+    <item>-4.4 分贝</item>
+    <item>-6.0 分贝</item>
+    <item>-8.0 分贝</item>
+    <item>-10.5 分贝</item>
+    <item>-14.0 分贝</item>
+    <item>-20.0 分贝</item>
+    <item>-26.0 分贝</item>
+    <item>-40.0 分贝</item>
+  </string-array><string-array name="multi_factor">
+    <item>1倍</item>
+    <item>2倍</item>
+    <item>3倍</item>
+    <item>4倍</item>
+    <item>5倍</item>
+    <item>6倍</item>
+    <item>7倍</item>
+    <item>8倍</item>
+    <item>9倍</item>
+    <item>10倍</item>
+    <item>无穷大</item>
+  </string-array></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values-zh-rCN\strings.xml" qualifiers="zh-rCN"><string name="pref_playback_summary_on">回放增益控制已启用</string><string name="text_profilesaved_ok">配置文件已保存。</string><string name="text_yes">是</string><string name="text_showtrayicon">显示通知栏图标</string><string name="pref_equalizer_enable">启用</string><string name="eq_preset_r_and_b">R&amp;B</string><string name="pref_playback_title">回放增益控制</string><string name="text_changelog">更新日志</string><string name="eq_preset_deep">深沉</string><string name="text_pleaseinputname">请输入配置文件的名称
+\n不能包含\'=\'
+    </string><string name="pref_xfisound_enable">启用</string><string name="text_precious_float_unit">位浮点</string><string name="select_configuration_title">ViPER4Android XHiFi</string><string name="pref_dsp_enable">启用</string><string name="pref_equalizer_summary_on">FIR均衡器已启用</string><string name="headset_title">耳机</string><string name="text_drvvernotmatch">为了正常使用ViPER4Android音效，您需要安装或更新V4A驱动程序。
+\n安装或更新过程将会自动完成，卸载时可以使用菜单中的卸载驱动。
+\n现在安装或更新吗？
+    </string><string name="text_drvuninst_ok">驱动已卸载，请重启手机以生效。</string><string name="text_speaker">扬声器</string><string name="bluetooth_title">蓝牙设备</string><string name="eq_preset_bass_reducer">低音弱化</string><string name="text_profilesaved_err">无法保存配置文件，名称已经存在。</string><string name="pref_xfisound_locontour">低音轮廓</string><string name="text_modeswitchfailed">驱动模式切换失败，请确认busybox已经安装。</string><string name="eq_preset_classical">古典音乐</string><string name="about_text">***关于ViPER4Android***
+\n
+\n\'libv4a_xx_xx.so\'是ViPER4Android的核心组件。
+\n版权所有© 2006-2016，vipercn.com。保留所有权利。
+\n未经官方许可，不可用于商业用途(包括有连带/包含关系的广告营收等)。
+\n官方论坛: forum.vipersaudio.com
+\n
+\n\'ViPER4Android.apk\'是ViPER4Android的控制面板。
+\n基于Cyanogenmod的DSPManager中部分代码而做。
+\n
+\n版本 %1$s (XHiFi), 代码 "X-Factor"。
+\n
+    </string><string name="text_install">安装驱动</string><string name="text_busybox_missing">Busybox未找到。
+\n为了正常使用ViPER4Android，需要安装Busybox。
+    </string><string name="pref_playback_summary_off">回放增益控制已禁用</string><string name="eq_preset_treble_reducer">高音弱化</string><string name="pref_playback_maxgain">最大增益倍数</string><string name="eq_preset_treble_booster">高音强化</string><string name="text_drvinst_failed">驱动安装失败，请确认您的手机已经ROOT并且安装了busybox。</string><string name="dsp_settings_bluetooth">音效设定 - 蓝牙设备</string><string name="dialog_effect">效果强度</string><string name="audio_effects">音频效果</string><string name="text_su_missing">ViPER4Android需要ROOT权限和su二进制文件，请确认已经安装了最新的Superuser并对V4A进行了授权。</string><string name="text_modeswitchok">驱动模式切换成功，请重启手机以生效。</string><string name="dsp_settings_headset">音效设定 - 耳机</string><string name="text_profileload_ok">配置文件已经加载。</string><string name="pref_equalizer_summary_off">FIR均衡器已禁用</string><string name="text_help_content">***一般性帮助***
+\n
+\n\'安装驱动\' - 安装或更新V4A驱动程序。
+\n\'卸载驱动\' - 卸载V4A驱动程序。
+\n\'切换到安全模式\' - 将驱动程序切换到OpenSL架构。
+\n\'切换到正常模式\' - 将驱动程序切换到独特架构。
+\n\'音效兼容模式\' - 设定音效的兼容模式。
+\n    \'正常模式\' - 将V4A用作全局音效。
+\n    \'兼容模式\' - 将V4A用作局部音效。
+\n
+\n<b>您是否遇到过在大多数播放器上V4A无效的问题？</b>
+\n    您可以先尝试将驱动程序切换到安全模式，然后再试。
+\n    如果依然无效，您可以将音效模式切换到兼容模式，然后再试。
+\n
+\n<b>论坛：http://forum.vipersaudio.com</b>
+    </string><string name="eq_preset_acoustic">原音音乐</string><string name="text_abnormal">出错</string><string name="text_ok">确定</string><string name="text_select_cpu">请选择CPU平台</string><string name="text_forum_link">http://forum.vipersaudio.com</string><string name="text_view_forum">论坛</string><string name="pref_output_gain">输出增益</string><string name="pref_fx_master_title">效果总开关</string><string name="pref_equalizer_preset_title">选择预设</string><string name="eq_preset_flat">平淡</string><string name="text_cancel">取消</string><string name="text_headset">头戴设备</string><string name="text_lockeffect">锁定效果模式</string><string name="text_rwsd_error">无法读写外置存储设备。</string><string name="text_service_error">无法和ViPER4Android后台服务建立连接，可能是无法加载驱动或后台服务进程已被杀死。</string><string name="text_bluetooth">蓝牙设备</string><string name="text_no">否</string><string name="eq_preset_rock">摇滚音乐</string><string name="text_disabled">已禁用</string><string name="text_uninstall">卸载驱动</string><string name="text_loadfxprofile">加载音效配置</string><string name="pref_effect_title">选择效果强度</string><string name="text_drv_status_view">
+\n
+\n驱动版本: %1$s
+\n已启用: %2$s
+\n状态: %3$s
+\n正在处理: %4$s
+\n运算精度: %5$s
+\n采样率: %6$d
+\n声道数量: %7$d
+\n
+    </string><string name="eq_preset_bass_booster">低音强化</string><string name="pref_fx_master_summary_on">V4A效果已开启</string><string name="eq_preset_custom">自定义</string><string name="text_commode">音效兼容模式</string><string name="text_profileload_err">无法加载配置文件。</string><string name="pref_xfisound_title">音频重整</string><string name="text_enabled">已启用</string><string name="text_drvinst_ok">驱动安装完成，请重启手机以生效。</string><string name="text_profilesaved_overwrite">配置文件名称已经存在，是否需要覆盖？</string><string name="pref_xfisound_process_title">选择细节解析度</string><string name="pref_xfisound_summary_on">音频重整已开启</string><string name="eq_preset_vocal_booster">人声强化</string><string name="pref_xfisound_process">细节解析度</string><string name="dsp_settings_speaker">音效设定 - 扬声器</string><string name="pref_fx_limiter_threshold">限制级别</string><string name="pref_xfisound_summary_off">音频重整已禁用</string><string name="text_effectprofile">音效配置</string><string name="pref_fx_limiter_title">总输出门(限幅)</string><string name="pref_xfisound_locontour_title">选择低音轮廓</string><string name="text_normal">正常</string><string name="about_title">帮助和关于</string><string name="eq_preset_small_speakers">小型喇叭</string><string name="text_drvuninst_confim">您确定要卸载V4A驱动程序吗？</string><string name="text_drv_status">驱动程序状态</string><string name="text_opensafemode">切换到安全模式</string><string name="app_name">ViPER4Android XHiFi</string><string name="pref_playback_output_threshold">最大音量</string><string name="pref_equalizer_title">FIR均衡器</string><string name="text_token_lost">ViPER4Android: 音效控制权丢失，尝试重载驱动。</string><string name="speaker_title">扬声器</string><string name="pref_fx_master_summary_off">V4A效果已关闭</string><string name="text_savefxprofile">保存音效配置</string><string name="text_closesafemode">切换到正常模式</string></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values-zh-rTW\arrays.xml" qualifiers="zh-rTW"><string-array name="compatible_mode">
+    <item>正常模式</item>
+    <item>兼容模式</item>
+  </string-array><string-array name="playbackgain_ratio">
+    <item>輕微</item>
+    <item>中等</item>
+    <item>極端</item>
+  </string-array><string-array name="cpu_platform_xhifi">
+    <item>沒有VFP(PXA920)</item>
+    <item>帶有VFP的ARM</item>
+    <item>帶有NEON的A系列</item>
+  </string-array><string-array name="multi_factor">
+    <item>1倍</item>
+    <item>2倍</item>
+    <item>3倍</item>
+    <item>4倍</item>
+    <item>5倍</item>
+    <item>6倍</item>
+    <item>7倍</item>
+    <item>8倍</item>
+    <item>9倍</item>
+    <item>10倍</item>
+    <item>無限大</item>
+  </string-array><string-array name="cpu_platform_fx">
+    <item>老設備(ARMv5TE)</item>
+    <item>英偉達圖睿2</item>
+    <item>帶有NEON的A8</item>
+    <item>帶有NEON的A9</item>
+  </string-array><string-array name="output_db">
+    <item>0 分貝</item>
+    <item>-1.0 分貝</item>
+    <item>-1.9 分貝</item>
+    <item>-3.0 分貝</item>
+    <item>-6.0 分貝</item>
+    <item>-10.5 分貝</item>
+  </string-array><string-array name="output_volume">
+    <item>6.0 分貝</item>
+    <item>5.6 分貝</item>
+    <item>5.1 分貝</item>
+    <item>4.6 分貝</item>
+    <item>4.1 分貝</item>
+    <item>3.5 分貝</item>
+    <item>2.9 分貝</item>
+    <item>2.3 分貝</item>
+    <item>1.6 分貝</item>
+    <item>0.8 分貝</item>   
+    <item>0 分貝</item>
+    <item>-1.0 分貝</item>
+    <item>-1.9 分貝</item>
+    <item>-3.0 分貝</item>
+    <item>-4.4 分貝</item>
+    <item>-6.0 分貝</item>
+    <item>-8.0 分貝</item>
+    <item>-10.5 分貝</item>
+    <item>-14.0 分貝</item>
+    <item>-20.0 分貝</item>
+    <item>-26.0 分貝</item>
+    <item>-40.0 分貝</item>
+  </string-array></file><file path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\values-zh-rTW\strings.xml" qualifiers="zh-rTW"><string name="text_lockeffect">鎖定效果模式</string><string name="text_profileload_ok">配置文件已加載。</string><string name="text_rwsd_error">無法讀寫外置存儲裝置。</string><string name="eq_preset_small_speakers">小型喇叭</string><string name="text_precious_float_unit">位元浮點</string><string name="text_bluetooth">藍牙設備</string><string name="pref_fx_master_summary_on">V4A效果已開啓</string><string name="eq_preset_classical">古典音樂</string><string name="text_headset">頭戴設備</string><string name="pref_effect_title">選擇效果強度</string><string name="pref_equalizer_title">FIR等化器</string><string name="text_yes">是</string><string name="select_configuration_title">ViPER4Android XHiFi</string><string name="text_normal">正常</string><string name="eq_preset_rock">搖滾音樂</string><string name="dsp_settings_speaker">音效設定 - 揚聲器</string><string name="text_profilesaved_ok">配置文件已保存。</string><string name="text_modeswitchfailed">驅動模式切換失敗，請確認busybox已經安裝。</string><string name="pref_playback_title">播放增益控制</string><string name="text_view_forum">論壇</string><string name="text_select_cpu">請選擇CPU平臺</string><string name="eq_preset_acoustic">原音音樂</string><string name="text_savefxprofile">保存音效配置</string><string name="eq_preset_flat">無效果</string><string name="app_name">ViPER4Android XHiFi</string><string name="text_forum_link">http://forum.vipersaudio.com</string><string name="pref_playback_maxgain">最大增益倍數</string><string name="text_token_lost">ViPER4Android: 喪失音效控制權，嘗試重載驅動。</string><string name="text_cancel">取消</string><string name="speaker_title">揚聲器</string><string name="pref_equalizer_enable">啓用</string><string name="pref_xfisound_enable">啟用</string><string name="text_drvvernotmatch">爲了正常使用ViPER4Android音效，您需要安裝或更新V4A驅動程式。
+\n安裝或更新過程將會自動完成，卸載時可以使用菜單中的卸載驅動。
+\n現在安裝或更新嗎？
+    </string><string name="dsp_settings_bluetooth">音效設定 - 藍牙設備</string><string name="text_help_content">***一般性幫助***
+\n
+\n\'安裝驅動\' - 安裝或更新V4A驅動程式。
+\n\'卸載驅動\' - 卸載V4A驅動程式。
+\n\'切換到安全模式\' - 將驅動程式切換到OpenSL架構。
+\n\'切換到正常模式\' - 將驅動程式切換到獨特架構。
+\n\'音效兼容模式\' - 設定音效的兼容模式。
+\n    \'正常模式\' - 將V4A用作全局音效。
+\n    \'兼容模式\' - 將V4A用作局部音效。
+\n
+\n<b>您是否遇到过在大多数播放器上V4A无效的问题？</b>
+\n    您可以先尝试将驱动程序切换到安全模式，然后再试。
+\n    如果依然无效，您可以将音效模式切换到兼容模式，然后再试。
+\n
+\n<b>論壇：http://forum.vipersaudio.com</b>
+    </string><string name="text_drv_status">驅動程式狀態</string><string name="text_modeswitchok">驅動模式切換成功，請重啟手機以生效。</string><string name="text_busybox_missing">Busybox未找到。
+\n爲了正常使用ViPER4Android，需要安裝Busybox。
+    </string><string name="pref_xfisound_locontour">低音輪廓</string><string name="pref_playback_summary_off">播放增益控制已停用</string><string name="about_text">***關于ViPER4Android***
+\n
+\n\'libv4a_xx_xx.so\'是ViPER4Android的核心組件。
+\n版權所有© 2006-2016，vipercn.com。保留所有權利。
+\n未經官方許可，不可用于商業用途(包括有連帶/包含關系的廣告營收等)。
+\n官方論壇: forum.vipersaudio.com
+\n
+\n\'ViPER4Android.apk\'是ViPER4Android的控制面板。
+\n基于Cyanogenmod的DSPManager中部分代碼而做。
+\n
+\n版本 %1$s (XHiFi), 代碼 "X-Factor"。
+\n
+    </string><string name="about_title">幫助和關于</string><string name="pref_equalizer_preset_title">選擇預設</string><string name="text_loadfxprofile">加載音效配置</string><string name="eq_preset_custom">自定義</string><string name="dsp_settings_headset">音效設定 - 耳機</string><string name="pref_dsp_enable">啓用</string><string name="eq_preset_treble_booster">高音強化</string><string name="pref_xfisound_locontour_title">選擇低音輪廓</string><string name="pref_output_gain">輸出增益</string><string name="bluetooth_title">藍牙設備</string><string name="text_drvinst_ok">驅動已安裝，請重啟手機以生效。</string><string name="eq_preset_treble_reducer">高音弱化</string><string name="pref_equalizer_summary_on">FIR等化器已啓用</string><string name="text_changelog">更新日誌</string><string name="eq_preset_deep">深沈</string><string name="pref_xfisound_process">細節解析度</string><string name="headset_title">耳機</string><string name="pref_xfisound_process_title">選擇細節解析度</string><string name="text_profilesaved_overwrite">配置文件名稱已經存在，是否需要覆蓋？</string><string name="text_su_missing">ViPER4Android需要ROOT權限和su二進制程式，請確認已經安裝了最新的Superuser並對V4A進行了授權。</string><string name="pref_fx_master_summary_off">V4A效果已關閉</string><string name="text_service_error">無法和ViPER4Android背景服務建立連接，可能是無法加載驅動或背景服務程序已被殺死。</string><string name="pref_fx_limiter_title">總輸出門檻限制</string><string name="text_ok">確定</string><string name="pref_fx_master_title">效果總開關</string><string name="text_profileload_err">無法加載配置文件。</string><string name="eq_preset_r_and_b">R&amp;B</string><string name="text_effectprofile">音效配置</string><string name="text_drv_status_view">
+\n
+\n驅動版本: %1$s
+\n已啟用: %2$s
+\n狀態: %3$s
+\n正在處理: %4$s
+\n運算精度: %5$s
+\n採樣率: %6$d
+\n聲道數量: %7$d
+\n
+    </string><string name="text_no">否</string><string name="pref_xfisound_summary_off">音頻重整已禁用</string><string name="text_closesafemode">切換到正常模式</string><string name="text_showtrayicon">顯示通知欄圖標</string><string name="pref_xfisound_title">音頻重整</string><string name="eq_preset_bass_reducer">低音弱化</string><string name="text_drvuninst_ok">驅動已卸載，請重啟手機以生效。</string><string name="audio_effects">音頻效果</string><string name="text_profilesaved_err">無法保存配置文件，名稱已經存在。</string><string name="text_opensafemode">切換到安全模式</string><string name="text_disabled">已停用</string><string name="pref_playback_summary_on">播放增益控制已啟用</string><string name="pref_xfisound_summary_on">音頻重整已開啟</string><string name="text_drvuninst_confim">您確定要卸載V4A驅動程式嗎？</string><string name="text_pleaseinputname">請輸入配置文件的名稱
+\n不能包含\'=\'
+    </string><string name="text_uninstall">卸載驅動</string><string name="pref_fx_limiter_threshold">輸出強度</string><string name="text_enabled">已啓用</string><string name="pref_playback_output_threshold">最大音量限制</string><string name="dialog_effect">效果強度</string><string name="eq_preset_bass_booster">低音強化</string><string name="text_install">安裝驅動</string><string name="pref_equalizer_summary_off">FIR等化器已停用</string><string name="eq_preset_vocal_booster">人聲強化</string><string name="text_commode">音效兼容模式</string><string name="text_drvinst_failed">驅動安裝失敗，請確認您的手機已經ROOT並且安裝了busybox。</string><string name="text_abnormal">出錯</string><string name="text_speaker">揚聲器</string></file><file name="bluetooth_preferences" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\xml\bluetooth_preferences.xml" qualifiers="" type="xml"/><file name="headset_preferences" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\xml\headset_preferences.xml" qualifiers="" type="xml"/><file name="speaker_preferences" path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\main\res\xml\speaker_preferences.xml" qualifiers="" type="xml"/></source><source path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\build\generated\res\rs\release"/><source path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="C:\Users\최요한\ViPER4Android_Xhifi-Gradle\app\src\release\res"/></dataSet><mergedItems/></merger>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="action_bar_style" parent="@android:style/Widget.Material.ActionBar.Solid" />
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/action_bar_style</item>
+    </style>
+
+
+    <style name="AppTheme_Indigo_Light" parent="@android:style/Theme.Material.Light.DarkActionBar" >
+        <item name="android:colorPrimary">#3f51b5</item>
+        <item name="android:colorPrimaryDark">#303f9f</item>
+        <item name="android:colorAccent">#536DFE</item>
+        <item name="android:colorControlNormal">#3f51b5</item>
+        <item name="android:colorControlHighlight">#303f9f</item>
+    </style>
+
+    <style name="AppTheme_indigo" parent="@android:style/Theme.Material" >
+        <item name="android:colorPrimary">#3f51b5</item>
+        <item name="android:colorPrimaryDark">#303f9f</item>
+        <item name="android:navigationBarColor">#3f51b5</item>
+        <item name="android:colorAccent">#536DFE</item>
+        <item name="android:colorControlNormal">#3f51b5</item>
+        <item name="android:colorControlHighlight">#303f9f</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+
+    </style>
+
+
+    <style name="AppTheme_indigo_start" parent="@android:style/Theme.Material.NoActionBar" >
+        <item name="android:colorPrimary">#3f51b5</item>
+        <item name="android:colorPrimaryDark">#3f51b5</item>
+        <item name="android:navigationBarColor">#3f51b5</item>
+        <item name="android:colorAccent">#536DFE</item>
+        <item name="android:colorControlNormal">#3f51b5</item>
+        <item name="android:colorControlHighlight">#303f9f</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+        <!-- <item name="android:windowTranslucentNavigation">true</item> -->
+
+    </style>
+
+
+    <style name="AppTheme_verydark" parent="@android:style/Theme.Material" >
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="android:colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:colorAccent">#FAFAFA</item>
+        <item name="android:colorControlNormal">#FAFAFA</item>
+        <item name="android:colorControlHighlight">#BDBDBD</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+
+    <style name="AppTheme_gray" parent="@android:style/Theme.Material" >
+        <item name="android:colorPrimary">#303030</item>
+        <item name="android:colorPrimaryDark">#303030</item>
+        <item name="android:navigationBarColor">#303030</item>
+        <item name="android:colorAccent">#FAFAFA</item>
+        <item name="android:colorControlNormal">#FAFAFA</item>
+        <item name="android:colorControlHighlight">#BDBDBD</item>
+    </style>
+
+
+    <style name="AppTheme_white" parent="@android:style/Theme.Material.Light.NoActionBar" >
+        <item name="android:colorPrimary">#000000</item>
+        <item name="android:colorPrimaryDark">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:colorAccent">#303030</item>
+        <item name="android:colorControlNormal">#303030</item>
+        <item name="android:colorControlHighlight">#BDBDBD</item>
+        <!-- <item name="android:windowBackground">@android:style/windowBackground</item> -->
+    </style>
+
+
+
+    <style name="AppTheme_default" parent="@android:style/Theme.Material.Light.DarkActionBar" >
+        <item name="android:colorPrimary">#7B1FA2</item>
+        <item name="android:colorPrimaryDark">#4A148C</item>
+        <item name="android:navigationBarColor">#7B1FA2</item>
+        <item name="android:colorAccent">#7B1FA2</item>
+        <item name="android:colorControlNormal">#7B1FA2</item>
+        <item name="android:colorControlHighlight">#6A1B9A</item>
+    </style>
+
+
+    <style name="AppTheme_verydarkpurple" parent="@android:style/Theme.Material" >
+        <item name="android:colorPrimary">#7B1FA2</item>
+        <item name="android:colorPrimaryDark">#6A1B9A</item>
+        <!-- <item name="android:navigationBarColor">#7B1FA2</item> -->
+        <item name="android:colorAccent">#BA68C8</item>
+        <item name="android:colorControlNormal">#BA68C8</item>
+        <item name="android:colorControlHighlight">#CE93D8</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+
+    <style name="AppTheme_darkpurple" parent="@android:style/Theme.Material" >
+        <item name="android:colorPrimary">#BA68C8</item>
+        <item name="android:colorPrimaryDark">#AB47BC</item>
+        <item name="android:navigationBarColor">#AB47BC</item>
+        <item name="android:colorAccent">#BA68C8</item>
+        <item name="android:colorControlNormal">#BA68C8</item>
+        <item name="android:colorControlHighlight">#CE93D8</item>
+        <!--<item name="android:windowBackground">@color/black</item> -->
+    </style>
+</resources>
+

@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:4:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:44
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:3:2
+	android:installLocation
+		ADDED from AndroidManifest.xml:6:2
+uses-sdk
+ADDED from AndroidManifest.xml:8:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:10:3
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:9:3
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from AndroidManifest.xml:12:2
+	android:name
+		ADDED from AndroidManifest.xml:12:19
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:13:2
+	android:name
+		ADDED from AndroidManifest.xml:13:19
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:14:2
+	android:name
+		ADDED from AndroidManifest.xml:14:19
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:15:2
+	android:name
+		ADDED from AndroidManifest.xml:15:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:16:2
+	android:name
+		ADDED from AndroidManifest.xml:16:19
+uses-permission#android.permission.ACCESS_SUPERUSER
+ADDED from AndroidManifest.xml:17:2
+	android:name
+		ADDED from AndroidManifest.xml:17:19
+application
+ADDED from AndroidManifest.xml:19:2
+	android:label
+		ADDED from AndroidManifest.xml:21:3
+	android:allowBackup
+		ADDED from AndroidManifest.xml:23:3
+	android:icon
+		ADDED from AndroidManifest.xml:20:3
+	android:persistent
+		ADDED from AndroidManifest.xml:22:3
+activity#com.vipercn.viper4android.xhifi.activity.ViPER4Android_XHiFi
+ADDED from AndroidManifest.xml:24:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:29:7
+	android:label
+		ADDED from AndroidManifest.xml:25:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:27:7
+	android:theme
+		ADDED from AndroidManifest.xml:28:4
+	android:name
+		ADDED from AndroidManifest.xml:26:4
+intent-filter#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:30:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:31:5
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+intent-filter#android.intent.category.DEFAULT+android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL+call.pdl.xhifi
+ADDED from AndroidManifest.xml:34:4
+action#call.pdl.xhifi
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:35:13
+action#android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL
+ADDED from AndroidManifest.xml:36:5
+	android:name
+		ADDED from AndroidManifest.xml:36:13
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:37:5
+	android:name
+		ADDED from AndroidManifest.xml:37:15
+service#com.vipercn.viper4android.xhifi.service.HeadsetService
+ADDED from AndroidManifest.xml:41:3
+	android:enabled
+		ADDED from AndroidManifest.xml:41:37
+	android:exported
+		ADDED from AndroidManifest.xml:41:12
+	android:name
+		ADDED from AndroidManifest.xml:42:4
+receiver#com.vipercn.viper4android.xhifi.receiver.BootCompletedReceiver
+ADDED from AndroidManifest.xml:45:3
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:46:4
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:47:5
+	android:name
+		ADDED from AndroidManifest.xml:47:13

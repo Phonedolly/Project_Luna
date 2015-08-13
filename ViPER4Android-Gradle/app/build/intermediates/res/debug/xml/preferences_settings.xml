@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory
+       android:title="SELinux" />
+       <Preference
+       android:title="SELinux 설정"
+       android:summary="SELinux의 권한을 조정합니다. Android 5 이상에서 사용하세요."
+       android:key="go_selinux">
+       </Preference>
+       <PreferenceCategory
+           android:title="@string/settings" />
+
+       <Preference
+              android:title="업데이트 확인"
+              android:summary="완성되지 않음"
+              android:key="check_update"></Preference>
+       <PreferenceCategory android:title="정보" />
+       <Preference
+              android:title="ViPER4Android 20150812"
+              android:summary="빌드 : PDL" />
+
+</PreferenceScreen>
+<!-- From: file:/C:/Users/최요한/ViPER4Android-Gradle/app/src/main/res/xml/preferences_settings.xml -->

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vipercn.viper4android_v2.Terms" >
+    
+    <TextView
+        android:id="@+id/terms_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/terms"
+        android:textSize="23sp" >
+
+    </TextView>
+        
+    <ScrollView
+        android:id="@+id/terms_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_info"
+        android:textSize="17sp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/terms_agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="동의합니다"
+        android:textSize="23sp" >
+        
+    </Button>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/최요한/ViPER4Android-Gradle/app/src/main/res/layout/activity_terms.xml -->
