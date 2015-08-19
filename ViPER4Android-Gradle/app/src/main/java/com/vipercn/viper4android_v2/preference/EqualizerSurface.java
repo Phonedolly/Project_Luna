@@ -194,7 +194,6 @@ public class EqualizerSurface extends SurfaceView {
     @Override
     protected void onDraw(Canvas canvas) {
         /* clear canvas */
-        canvas.drawRGB(0, 0, 0);
     	//canvas.drawRGB(255,  255, 255);
         //canvas.drawColor(Color.TRANSPARENT, Mode.CLEAR); 
     	//canvas.drawColor(R.color.white);

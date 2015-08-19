@@ -683,8 +683,7 @@ public final class ViPER4Android extends Activity {
             } else {
             	Log.i("ViPER4Android", "Changelog is empty");
             }
-            Intent intent = new Intent(ViPER4Android.this, StartActivity.class);
-            startActivity(intent);
+
         }
 
         // Start active thread
@@ -985,6 +984,7 @@ public final class ViPER4Android extends Activity {
                 return true;
             }
 
+            /* Settings.class로 이동
             case R.id.changelog: {
                 // Deal with changelog file name
                 String mLocale = Locale.getDefault().getLanguage() + "_"
@@ -1014,7 +1014,7 @@ public final class ViPER4Android extends Activity {
                 mChglog.setNegativeButton(getResources().getString(R.string.text_ok), null);
                 mChglog.show();
                 return true;
-            }
+            }*/
 
             case R.id.loadprofile: {
                 loadProfileDialog();
@@ -1099,7 +1099,7 @@ public final class ViPER4Android extends Activity {
                 mSelectIndex = mCompatibleMode.equals("global") ? 0 : 1;
                 Dialog selectDialog = new AlertDialog.Builder(this)
                         .setTitle(R.string.text_commode)
-                        .setIcon(R.drawable.icon)
+                        .setIcon(R.drawable.ic_launcher)
                         .setSingleChoiceItems(R.array.compatible_mode, mSelectIndex,
                         new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {

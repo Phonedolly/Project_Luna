@@ -61,8 +61,6 @@ ADDED from AndroidManifest.xml:19:2
 		ADDED from AndroidManifest.xml:22:3
 activity#com.vipercn.viper4android.xhifi.activity.ViPER4Android_XHiFi
 ADDED from AndroidManifest.xml:24:3
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:29:7
 	android:label
 		ADDED from AndroidManifest.xml:25:4
 	android:configChanges
@@ -72,40 +70,40 @@ ADDED from AndroidManifest.xml:24:3
 	android:name
 		ADDED from AndroidManifest.xml:26:4
 intent-filter#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:30:4
+ADDED from AndroidManifest.xml:29:4
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:31:5
+ADDED from AndroidManifest.xml:30:5
 	android:name
-		ADDED from AndroidManifest.xml:31:13
+		ADDED from AndroidManifest.xml:30:13
 intent-filter#android.intent.category.DEFAULT+android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL+call.pdl.xhifi
-ADDED from AndroidManifest.xml:34:4
+ADDED from AndroidManifest.xml:33:4
 action#call.pdl.xhifi
+ADDED from AndroidManifest.xml:34:5
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+action#android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL
 ADDED from AndroidManifest.xml:35:5
 	android:name
 		ADDED from AndroidManifest.xml:35:13
-action#android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL
+category#android.intent.category.DEFAULT
 ADDED from AndroidManifest.xml:36:5
 	android:name
-		ADDED from AndroidManifest.xml:36:13
-category#android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:37:5
-	android:name
-		ADDED from AndroidManifest.xml:37:15
+		ADDED from AndroidManifest.xml:36:15
 service#com.vipercn.viper4android.xhifi.service.HeadsetService
-ADDED from AndroidManifest.xml:41:3
+ADDED from AndroidManifest.xml:39:3
 	android:enabled
-		ADDED from AndroidManifest.xml:41:37
+		ADDED from AndroidManifest.xml:39:37
 	android:exported
-		ADDED from AndroidManifest.xml:41:12
+		ADDED from AndroidManifest.xml:39:12
 	android:name
-		ADDED from AndroidManifest.xml:42:4
+		ADDED from AndroidManifest.xml:40:4
 receiver#com.vipercn.viper4android.xhifi.receiver.BootCompletedReceiver
-ADDED from AndroidManifest.xml:45:3
+ADDED from AndroidManifest.xml:42:3
 	android:name
-		ADDED from AndroidManifest.xml:45:13
+		ADDED from AndroidManifest.xml:42:13
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:46:4
+ADDED from AndroidManifest.xml:43:4
 action#android.intent.action.BOOT_COMPLETED
-ADDED from AndroidManifest.xml:47:5
+ADDED from AndroidManifest.xml:44:5
 	android:name
-		ADDED from AndroidManifest.xml:47:13
+		ADDED from AndroidManifest.xml:44:13

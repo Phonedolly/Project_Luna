@@ -10,5 +10,5 @@
     <item android:id="@+id/drvstatus" android:title="@string/text_drv_status"/>
     <item android:id="@+id/changelog" android:title="@string/text_changelog"/>
     <item android:id="@+id/about" android:title="@string/about_title"/>
-    <item android:id="@+id/fx" android:title="ViPER4Android" android:icon="@drawable/ic_equalizer_white_48dp" android:showAsAction="ifRoom"/>
+    <item android:id="@+id/fx" android:title="ViPER4Android FX" android:icon="@drawable/ic_equalizer_white_48dp" android:showAsAction="ifRoom"/>
 </menu>

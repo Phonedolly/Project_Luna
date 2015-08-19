@@ -14,7 +14,7 @@
             android:disableDependentsState="false" />
     </PreferenceCategory>
     <PreferenceCategory
-    android:layout="@layout/pref_spkfx_master_title_help" />
+    android:layout="@layout/layout_pref_spk_master_help" />
     <PreferenceCategory 
         android:title="@string/pref_equalizer_title">
         <CheckBoxPreference 
@@ -33,7 +33,7 @@
         <com.vipercn.viper4android_v2.preference.EqualizerPreference 
             android:key="viper4android.headphonefx.fireq.custom" />
     </PreferenceCategory>
-
+    <PreferenceCategory android:layout="@layout/layout_pref_fireq_help"></PreferenceCategory>
     
     <PreferenceCategory android:title="@string/pref_convolver_title">
         <CheckBoxPreference android:title="@string/pref_convolver_enable" android:key="viper4android.headphonefx.convolver.enable" android:summaryOn="@string/pref_convolver_summary_on" android:summaryOff="@string/pref_convolver_summary_off" android:disableDependentsState="false" />

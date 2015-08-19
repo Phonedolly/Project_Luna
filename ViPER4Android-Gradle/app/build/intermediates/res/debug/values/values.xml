@@ -689,7 +689,6 @@
     <item name="about" type="id">false</item>
     <item name="button_enforcing" type="id">false</item>
     <item name="button_permissive" type="id">false</item>
-    <item name="changelog" type="id">false</item>
     <item name="checkbox_notify" type="id">false</item>
     <item name="checkupdate" type="id">false</item>
     <item name="compatible" type="id">false</item>

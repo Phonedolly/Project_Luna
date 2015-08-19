@@ -4,20 +4,24 @@
        android:title="SELinux" />
        <Preference
        android:title="SELinux 설정"
-       android:summary="SELinux의 권한을 조정합니다. Android 5 이상에서 사용하세요."
+       android:summary="SELinux의 권한을 조정합니다.Android 5.0 이상에서 사용하세요."
        android:key="go_selinux">
        </Preference>
        <PreferenceCategory
-           android:title="@string/settings" />
-
+           android:title="@string/OtherSettings" />
        <Preference
-              android:title="업데이트 확인"
-              android:summary="완성되지 않음"
-              android:key="check_update"></Preference>
+              android:title="@string/text_checkupdate"
+              android:summary="@string/checkUpdateSummary">
+              <intent
+                  android:action="android.intent.action.VIEW"
+                  android:data="@string/text_updatelink" />
+       </Preference>
+       <Preference android:title="변경 내역" android:summary="바뀐 점을 찾아보세요" android:key="change_log"/>
        <PreferenceCategory android:title="정보" />
        <Preference
-              android:title="ViPER4Android 20150812"
-              android:summary="빌드 : PDL"
-              android:key="go_easterEgg"/>
+           android:title="ViPER4Android 20150818"
+           android:summary="빌드 : PDL"
+           android:key="go_egg">
+       </Preference>
 
 </PreferenceScreen>

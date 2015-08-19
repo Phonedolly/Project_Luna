@@ -10,7 +10,6 @@
     <item android:id="@id/compatible" android:title="@string/text_commode" />
     <item android:id="@id/drvinst" android:title="@string/text_drv_blank" />
     <item android:id="@id/drvstatus" android:title="@string/text_drv_status" />
-    <item android:id="@id/changelog" android:title="@string/text_changelog" />
     <item android:id="@id/checkupdate" android:title="@string/text_checkupdate" />
     <item android:id="@id/about" android:title="@string/about_title" />
     <item android:id="@id/settings" android:title="설정" android:icon="@drawable/ic_settings_applications_white_48dp" android:showAsAction="ifRoom"/>

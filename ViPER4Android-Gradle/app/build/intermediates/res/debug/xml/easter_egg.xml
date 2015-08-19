@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="잘 찾아오셨습니다"></PreferenceCategory>
+    <Preference
+        android:title="킷캣을 원하십니까?"
+        android:summary="바로 여기에 있습니다!" >
+        <intent
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.DessertCase"/>
+    </Preference>
+    <Preference android:title="추억이 그리우신가요?" android:summary="하늘을 날 수 있습니다!">
+        <intent
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.egg.LLandActivity"/>
+    </Preference>
+
+
+</PreferenceScreen><!-- From: file:/C:/Users/최요한/ViPER4Android-Gradle/app/src/main/res/xml/easter_egg.xml -->

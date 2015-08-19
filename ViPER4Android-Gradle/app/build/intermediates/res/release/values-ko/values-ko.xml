@@ -57,7 +57,7 @@
         <item>레벨 5</item>
         <item>레벨 6</item>
         <item>레벨 7</item>
-        <item>최대치</item>
+        <item>최대한</item>
     </string-array>
     <string-array name="colorfulmusic_coeffs_values">
         <item>120;200</item>
@@ -81,7 +81,7 @@
         <item>레벨 7</item>
         <item>레벨 8</item>
         <item>레벨 9</item>
-        <item>최대치</item>
+        <item>최대한</item>
     </string-array>
     <string-array name="colorfulmusic_midimage_values">
         <item>100</item>
@@ -258,10 +258,10 @@
         <item>고급형 헤드폰(v1)</item>
         <item>일반형 헤드폰(v1)</item>
         <item>일반형 이어폰(v1)</item>
-        <item>애플 이어폰</item>
-        <item>몬스터 이어폰</item>
+        <item>애플(Apple) 이어폰</item>
+        <item>몬스터(Monster) 이어폰</item>
         <item>모토(Moto) 이어폰</item>
-        <item>필립스 이어폰</item>
+        <item>필립스(Philips) 이어폰</item>
         <item>SHP2000</item>
         <item>SHP9000</item>
         <item>Unknown Type I</item>
@@ -331,7 +331,7 @@
         <item>8x</item>
         <item>9x</item>
         <item>10x</item>
-        <item>무한대</item>
+        <item>무제한</item>
     </string-array>
     <string-array name="multi_factor_values">
         <item>100</item>
@@ -411,9 +411,9 @@
         <item>1</item>
     </string-array>
     <string-array name="playbackgain_ratio">
-        <item>약</item>
-        <item>중</item>
-        <item>강</item>
+        <item>약하게</item>
+        <item>중간</item>
+        <item>강하게</item>
     </string-array>
     <string-array name="playbackgain_ratio_values">
         <item>50</item>
@@ -447,17 +447,17 @@
         <item>100</item>
     </string-array>
     <string-array name="reverb_roomsize">
-        <item>25㎡</item>
-        <item>36㎡</item>
-        <item>49㎡</item>
-        <item>64㎡</item>
-        <item>81㎡</item>
-        <item>100㎡</item>
-        <item>121㎡</item>
-        <item>203㎡</item>
-        <item>347㎡</item>
-        <item>652㎡</item>
-        <item>1200㎡</item>
+        <item>25 ㎡</item>
+        <item>36 ㎡</item>
+        <item>49 ㎡</item>
+        <item>64 ㎡</item>
+        <item>81 ㎡</item>
+        <item>100 ㎡</item>
+        <item>121 ㎡</item>
+        <item>203 ㎡</item>
+        <item>347 ㎡</item>
+        <item>652 ㎡</item>
+        <item>1200 ㎡</item>
     </string-array>
     <string-array name="reverb_roomsize_values">
         <item>0</item>
@@ -597,7 +597,7 @@
         <item>2</item>
     </string-array>
     <string-array name="vclarity_boost">
-        <item>기본조정</item>
+        <item>기본 설정</item>
         <item>3.5 dB</item>
         <item>6.0 dB</item>
         <item>8.0 dB</item>
@@ -622,7 +622,7 @@
     </string-array>
     <string-array name="vclarity_mode">
         <item>내츄럴</item>
-        <item>오존+</item>
+        <item>OZone+</item>
         <item>XHiFi</item>
     </string-array>
     <string-array name="vclarity_mode_values">
@@ -658,6 +658,7 @@
     </string-array>
     <!-- From: file:/C:/Users/최요한/ViPER4Android-Gradle/app/src/main/res/values-ko/strings.xml -->
     <eat-comment/>
+    <string name="OtherSettings">다른 설정</string>
     <string name="about_text">"***ViPER4Android 소개*** 
  
 'libv4a_xx_xx.so'는 ViPER4Android의 커널입니다. Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved. 
@@ -672,9 +673,10 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
 버전 %1$s (FX), 코드명 “Beautiful”. 
 "</string>
     <string name="about_title">도움말 및 정보</string>
-    <string name="app_name">ViPER4Android</string>
+    <string name="app_name">ViPER4Android FX</string>
     <string name="audio_effects">오디오 효과</string>
     <string name="bluetooth_title">블루투스</string>
+    <string name="checkUpdateSummary">업데이트를 확인합니다</string>
     <string name="dialog_colorfulmusic">필드(Field) 서라운드 강도</string>
     <string name="dialog_colorfulmusic_mi">중앙 음향 강도</string>
     <string name="dialog_cure_crossfeed">교차 피드백(Binaural) 레벨</string>
@@ -685,7 +687,6 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
     <string name="dsp_settings_headset">사운드 설정 - 헤드셋</string>
     <string name="dsp_settings_speaker">사운드 설정 - 스피커</string>
     <string name="dsp_settings_usb">사운드 설정 - USB/Dock</string>
-    <string name="empty"/>
     <string name="eq_preset_acoustic">어쿠스틱</string>
     <string name="eq_preset_bass_booster">베이스 강화</string>
     <string name="eq_preset_bass_reducer">베이스 약화</string>
@@ -699,16 +700,16 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
     <string name="eq_preset_treble_booster">고음 강화</string>
     <string name="eq_preset_treble_reducer">고음 약화</string>
     <string name="eq_preset_vocal_booster">보컬 강화</string>
-    <string name="fx_master_bass_help">무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요. 이 설정을 활성화 할 경우 귀의 피로도가 증가합니다.</string>
+    <string name="fx_master_bass_help">무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요. 이 설정을 활성화 할 경우 귀의 피로도가 상승합니다.</string>
     <string name="go_eq">FIR Equalizer</string>
     <string name="headset_title">헤드셋</string>
+    <string name="master_title_help">ViPER4Android FX를 활성화합니다. 무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요</string>
     <string name="navigation_drawer_close">탐색 서랍 닫기</string>
     <string name="navigation_drawer_open">탐색 서랍 열기</string>
     <string name="navigation_toggle_drawer">서랍 보기로 전환</string>
     <string name="navigation_toggle_tabbed">탭 보기로 전환</string>
     <string name="pref_base_title">베이스 컨트롤</string>
     <string name="pref_bluetoothfx_master_title">마스터 스위치 - 블루투스 디바이스</string>
-    <string name="pref_bluetoothfx_master_title_help">ViPER4Android FX를 활성화합니다. CPU사용량 증가로 인해 배터리 소모가 증가할 수 있습니다. 무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요.</string>
     <string name="pref_clarity_title">선명도 처리모드</string>
     <string name="pref_colorfulmusic_enable">활성화</string>
     <string name="pref_colorfulmusic_summary_off">필드 서라운드 꺼짐</string>
@@ -765,14 +766,14 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
     <string name="pref_fidelity_vc_mode_title">선명도 처리 모드 선택</string>
     <string name="pref_fidelity_vc_summary_off">ViPER 선명도 처리 꺼짐</string>
     <string name="pref_fidelity_vc_summary_on">ViPER 선명도 처리 켜짐</string>
+    <string name="pref_fireq_help">FIR Equalizer는 강력한 조절능력을 가진 주파수 조정 기능입니다. </string>
     <string name="pref_force_enable_text">V4A 강제 적용</string>
-    <string name="pref_force_enable_warn">"강제 적용을 사용하면 효과가 적용되지 않는 문제를 해결할 수 있지만, 일부 롬에서는 소리가 나지 않거나 배터리 누수같은 예상치 못한 결과를 얻을 수 있습니다. 유사 현상 발생시 이 기능을 해제하시기 바랍니다."</string>
+    <string name="pref_force_enable_warn">"강제 적용을 사용하면 효과가 적용되지 않는 문제를 해결할 수 있지만, 일부 롬에서는 소리가 나지 않거나 배터리 누수같은 예상치 못한 결과를 얻을 수 있습니다.\n문제가 발생할 경우 이 기능을 해제하세요."</string>
     <string name="pref_fx_limiter_threshold">한계값 제한</string>
     <string name="pref_fx_limiter_title">마스터 출력 차단 (리미터)</string>
     <string name="pref_fx_master_summary_off">V4A-FX 꺼짐</string>
     <string name="pref_fx_master_summary_on">V4A-FX 켜짐</string>
     <string name="pref_fx_master_title">마스터 스위치 - 헤드셋</string>
-    <string name="pref_fx_master_title_help">ViPER4Android FX를 활성화합니다. CPU사용량 증가로 인해 배터리 소모가 증가할 수 있습니다. 무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요.</string>
     <string name="pref_output_gain">출력 이득</string>
     <string name="pref_output_pan">채널 균형</string>
     <string name="pref_playback_maxgain">최대 이득 배수</string>
@@ -780,7 +781,7 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
     <string name="pref_playback_summary_off">재생 이득 제어 꺼짐</string>
     <string name="pref_playback_summary_on">재생 이득 제어 켜짐</string>
     <string name="pref_playback_title">재생 이득(Playback Gain) 제어</string>
-    <string name="pref_playback_title_help">입력 레벨의 값의 변동을 자동으로 조절해 출력을 일정하게 유지시키도록 도와줍니다.</string>
+    <string name="pref_playback_title_help">입력 레벨의 값의 변동을 자동으로 조절해 출력을 일정하게 유지시키도록 도와줍니다</string>
     <string name="pref_reverb_damp">댐핑 팩터(Damping Factor)</string>
     <string name="pref_reverb_dry">원래 신호 비례(Dry Signal)</string>
     <string name="pref_reverb_enable">활성화</string>
@@ -803,7 +804,6 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
     <string name="pref_spkfx_master_summary_off">V4A-스피커FX 꺼짐</string>
     <string name="pref_spkfx_master_summary_on">V4A-스피커FX 켜짐</string>
     <string name="pref_spkfx_master_title">마스터 스위치 - 스피커</string>
-    <string name="pref_spkfx_master_title_help">ViPER4Android FX를 활성화합니다. CPU사용량 증가로 인해 배터리 소모가 증가할 수 있습니다. 무리한 설정은 스피커에 손상을 줄 수 있으니 주의하세요. 스피커 수명을 위해 활성화하는 것을 권장하지 않습니다.</string>
     <string name="pref_usbfx_master_title">마스터 스위치 - USB/Dock</string>
     <string name="pref_vhs_enable">활성화</string>
     <string name="pref_vhs_summary_off">VHS+ 꺼짐</string>
@@ -815,15 +815,14 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
     <string name="pref_viperddc_enable">활성화</string>
     <string name="pref_viperddc_summary_off">ViPER-DDC 꺼짐</string>
     <string name="pref_viperddc_summary_on">ViPER-DDC 켜짐</string>
-    <string name="pref_viperddc_tips">"참고: ViPER-DDC는 헤드폰 보정을 위한 리얼 하이파이 오디오 프로세서입니다. 현재 약 500종의 헤드폰을 지원하며 계속해서 더 많은 기기를 지원할 것입니다. 찾는 헤드폰이 목록에 없다면 새롭게 추가되기 전까지 이 기능은 비활성화해 주십시오."</string>
+    <string name="pref_viperddc_tips">"ViPER-DDC는 헤드폰 보정을 위한 리얼 하이파이 오디오 프로세서입니다. 현재 약 500종의 헤드폰을 지원하며 계속해서 더 많은 기기를 지원할 것입니다. 찾는 헤드폰이 목록에 없다면 새롭게 추가되기 전까지 이 기능을 비활성화 해주세요."</string>
     <string name="pref_viperddc_title">ViPER-DDC(주파수 응답 보정)</string>
     <string name="pref_vse_enable">활성화</string>
     <string name="pref_vse_strength">강도</string>
     <string name="pref_vse_strength_title">강도 선택</string>
     <string name="pref_vse_summary_off">스펙트럼 확산 꺼짐</string>
     <string name="pref_vse_summary_on">스펙트럼 확산 켜짐</string>
-    <string name="pref_vse_tips">"참고: 
-스펙트럼 확산은 손실 압축된 스펙트럼의 확장을 위한 리얼 하이파이 오디오 프로세서입니다. 이 기능은 손실 압축된 음악(mp3, aac, ogg 등)을 들을 때, 무손실에 가까운 느낌을 줍니다. 무손실 음원을 듣는 경우 이 기능을 해제하는 것이 좋습니다."</string>
+    <string name="pref_vse_tips">"스펙트럼 확산은 손실 압축된 스펙트럼의 확장을 위한 리얼 하이파이 오디오 프로세서입니다. 이 기능은 손실 압축된 음악(mp3, aac, ogg 등)을 들을 때, 무손실에 가까운 느낌을 줍니다. 무손실 음원을 듣는 경우 이 기능을 해제하는 것이 좋습니다."</string>
     <string name="pref_vse_title">스펙트럼 확산</string>
     <string name="pref_xloud_output_amplifer">음량 확대 레벨</string>
     <string name="pref_xloud_spk_highfreq">스피커 높은 주파수 응답</string>
@@ -832,10 +831,9 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
     <string name="pref_xloud_summary_on">eXtra-Loud 켜짐</string>
     <string name="pref_xloud_title">eXtra Loud</string>
     <string name="select_configuration_title">ViPER4Android FX</string>
-    <string name="selinux_bold">도움말</string>
-    <string name="selinux_info">이 설정은 SELinux 권한을 무조건 Permissive로 변경합니다. 추후 Enforcing기능이 제거될 예정입니다.</string>
-    <string name="settings">다른 설정</string>
+    <string name="settings">설정</string>
     <string name="speaker_title">스피커</string>
+    <string name="spk_master_title_help">ViPER4Android FX를 활성화합니다. 무리한 설정은 스피커 수명에 악영향을 줄 수 있습니다</string>
     <string name="terms"><b>계약조건 동의</b></string>
     <string name="terms_info">
 "
@@ -881,9 +879,9 @@ UI수정: PDL
     <string name="text_drvinst_acquireroot">"드라이버 설치 실패: V4A가 루트권한을 얻을 수 없습니다. 기기의 루팅 여부를 확인해 주십시오."</string>
     <string name="text_drvinst_busybox_not_installed">드라이버 설치 실패: 기기에 설치된 busybox를 찾을 수 없습니다.</string>
     <string name="text_drvinst_cfg_unsup">드라이버 설치 실패: 지원하지 않는 시스템이나 롬.</string>
-    <string name="text_drvinst_dataioerr">드라이버 설치 실패: I/O 에러, 기기를 재시작 후 다시 시도하십시오.</string>
-    <string name="text_drvinst_failed">"드라이버 설치 실패: 설치된 busybox가 작동하지 않습니다. 이는 busybox가 손상됐거나 설치가 잘못되었음을 의미합니다. V4A의 작동에는 Stericson busybox가 필요합니다. 
-올바른 busybox가 설치되었다면 기기의 완전한 루팅 여부를 확인해 주십시오."</string>
+    <string name="text_drvinst_dataioerr">드라이버 설치 실패: I/O 에러, 기기를 재시작 후 다시 시도하세요.</string>
+    <string name="text_drvinst_failed">"드라이버 설치 실패: 설치된 Busybox가 작동하지 않습니다. Busybox가 잘못 설치되었거나 손상되었습니다. V4A의 작동에는 Stericson busybox가 필요합니다.
+올바른 busybox가 설치되었다면 기기의 완전한 루팅 여부를 확인해 주세요."</string>
     <string name="text_drvinst_ok">드라이버가 설치되었습니다. 기기를 재시작해 주십시오.</string>
     <string name="text_drvinst_prefer">드라이버 선택</string>
     <string name="text_drvinst_sdnotmounted">드라이버 설치 실패: 쓰기 가능한 외부 또는 내부 저장 장치를 찾을 수 없습니다.</string>

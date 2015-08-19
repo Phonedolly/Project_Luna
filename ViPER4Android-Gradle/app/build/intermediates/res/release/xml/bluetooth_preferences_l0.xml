@@ -14,7 +14,7 @@
             android:disableDependentsState="false" />
     </PreferenceCategory>
 <PreferenceCategory
-    android:layout="@layout/pref_bluetooth_master_title_help"/>
+    android:layout="@layout/layout_pref_master_help"/>
     <PreferenceCategory 
         android:title="@string/pref_playback_title">
         <CheckBoxPreference 
@@ -37,15 +37,18 @@
         <CheckBoxPreference android:title="@string/pref_viperddc_enable" android:key="viper4android.headphonefx.viperddc.enable" android:summaryOn="@string/pref_viperddc_summary_on" android:summaryOff="@string/pref_viperddc_summary_off" android:disableDependentsState="false" />
         <com.vipercn.viper4android_v2.preference.SummariedListPreferenceDDC android:title="@string/pref_viperddc_device" android:key="viper4android.headphonefx.viperddc.device" android:defaultValue="" android:dialogTitle="@string/pref_viperddc_device" />
     </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/layout_pref_viperddc_tips_help"></PreferenceCategory>
     <PreferenceCategory android:title="@string/pref_vse_title">
         <CheckBoxPreference android:title="@string/pref_vse_enable" android:key="viper4android.headphonefx.vse.enable" android:summaryOn="@string/pref_vse_summary_on" android:summaryOff="@string/pref_vse_summary_off" android:disableDependentsState="false" />
         <com.vipercn.viper4android_v2.preference.SummariedListPreference android:entries="@array/vse_strength_values" android:title="@string/pref_vse_strength" android:key="viper4android.headphonefx.vse.value" android:defaultValue="0.1" android:dialogTitle="@string/pref_vse_strength_title" android:entryValues="@array/vse_strength_values" />
     </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/layout_pref_vse_tips_help"></PreferenceCategory>
     <PreferenceCategory android:title="@string/pref_equalizer_title">
         <CheckBoxPreference android:title="@string/pref_equalizer_enable" android:key="viper4android.headphonefx.fireq.enable" android:summaryOn="@string/pref_equalizer_summary_on" android:summaryOff="@string/pref_equalizer_summary_off" android:disableDependentsState="false" />
         <com.vipercn.viper4android_v2.preference.SummariedListPreference android:entries="@array/equalizer_preset_modes" android:title="@string/pref_equalizer_preset_title" android:key="viper4android.headphonefx.fireq" android:defaultValue="0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;" android:dialogTitle="@string/pref_equalizer_preset_title" android:entryValues="@array/equalizer_preset_values" />
         <com.vipercn.viper4android_v2.preference.EqualizerPreference android:key="viper4android.headphonefx.fireq.custom" />
     </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/layout_pref_fireq_help"></PreferenceCategory>
     <PreferenceCategory android:title="@string/pref_convolver_title">
         <CheckBoxPreference android:title="@string/pref_convolver_enable" android:key="viper4android.headphonefx.convolver.enable" android:summaryOn="@string/pref_convolver_summary_on" android:summaryOff="@string/pref_convolver_summary_off" android:disableDependentsState="false" />
         <com.vipercn.viper4android_v2.preference.SummariedListPreferenceWithCustom android:title="@string/pref_convolver_knl" android:key="viper4android.headphonefx.convolver.kernel" android:defaultValue="" android:dialogTitle="@string/pref_convolver_knl_title" />

@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="5"
         android:gravity="center"
-        android:text="ViPER4Android(TEST VERSION)"
+        android:text="ViPER4Android"
         android:textSize="30sp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -26,7 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.36"
         android:gravity="center"
-        android:text="시작" />
+        android:text="시작"
+        android:theme="@android:style/Widget.DeviceDefault.Light.Button.Borderless.Small" />
 
 </LinearLayout>
 <!-- From: file:/C:/Users/최요한/ViPER4Android-Gradle/app/src/main/res/layout/activity_start.xml -->

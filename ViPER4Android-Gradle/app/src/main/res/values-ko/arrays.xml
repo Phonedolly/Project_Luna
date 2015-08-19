@@ -49,7 +49,7 @@
         <item>레벨 5</item>
         <item>레벨 6</item>
         <item>레벨 7</item>
-        <item>최대치</item>
+        <item>최대한</item>
     </string-array>
     <string-array name="colorfulmusic_coeffs_values">
         <item>120;200</item>
@@ -73,7 +73,7 @@
         <item>레벨 7</item>
         <item>레벨 8</item>
         <item>레벨 9</item>
-        <item>최대치</item>
+        <item>최대한</item>
     </string-array>
     <string-array name="colorfulmusic_midimage_values">
         <item>100</item>
@@ -145,17 +145,17 @@
         <item>2000</item>
     </string-array>
     <string-array name="reverb_roomsize">
-        <item>25㎡</item>
-        <item>36㎡</item>
-        <item>49㎡</item>
-        <item>64㎡</item>
-        <item>81㎡</item>
-        <item>100㎡</item>
-        <item>121㎡</item>
-        <item>203㎡</item>
-        <item>347㎡</item>
-        <item>652㎡</item>
-        <item>1200㎡</item>
+        <item>25 ㎡</item>
+        <item>36 ㎡</item>
+        <item>49 ㎡</item>
+        <item>64 ㎡</item>
+        <item>81 ㎡</item>
+        <item>100 ㎡</item>
+        <item>121 ㎡</item>
+        <item>203 ㎡</item>
+        <item>347 ㎡</item>
+        <item>652 ㎡</item>
+        <item>1200 ㎡</item>
     </string-array>
     <string-array name="reverb_roomsize_values">
         <item>0</item>
@@ -277,9 +277,9 @@
         <item>4</item>
     </string-array>
     <string-array name="playbackgain_ratio">
-        <item>약</item>
-        <item>중</item>
-        <item>강</item>
+        <item>약하게</item>
+        <item>중간</item>
+        <item>강하게</item>
     </string-array>
     <string-array name="playbackgain_ratio_values">
         <item>50</item>
@@ -297,7 +297,7 @@
         <item>8x</item>
         <item>9x</item>
         <item>10x</item>
-        <item>무한대</item>
+        <item>무제한</item>
     </string-array>
     <string-array name="multi_factor_values">
         <item>100</item>
@@ -500,10 +500,10 @@
         <item>고급형 헤드폰(v1)</item>
         <item>일반형 헤드폰(v1)</item>
         <item>일반형 이어폰(v1)</item>
-        <item>애플 이어폰</item>
-        <item>몬스터 이어폰</item>
+        <item>애플(Apple) 이어폰</item>
+        <item>몬스터(Monster) 이어폰</item>
         <item>모토(Moto) 이어폰</item>
-        <item>필립스 이어폰</item>
+        <item>필립스(Philips) 이어폰</item>
         <item>SHP2000</item>
         <item>SHP9000</item>
         <item>Unknown Type I</item>
@@ -592,7 +592,7 @@
     </string-array>
     <string-array name="vclarity_mode">
         <item>내츄럴</item>
-        <item>오존+</item>
+        <item>OZone+</item>
         <item>XHiFi</item>
     </string-array>
     <string-array name="vclarity_mode_values">
@@ -601,7 +601,7 @@
         <item>2</item>
     </string-array>
     <string-array name="vclarity_boost">
-        <item>기본조정</item>
+        <item>기본 설정</item>
         <item>3.5 dB</item>
         <item>6.0 dB</item>
         <item>8.0 dB</item>

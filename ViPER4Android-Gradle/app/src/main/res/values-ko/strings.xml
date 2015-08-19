@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <string name="empty" />
-    <string name="app_name">ViPER4Android</string>
+    <string name="app_name">ViPER4Android FX</string>
     <string name="select_configuration_title">ViPER4Android FX</string>
     <string name="headset_title">헤드셋</string>
     <string name="speaker_title">스피커</string>
@@ -17,7 +16,7 @@
     <string name="pref_effect_title">효과 강도 선택</string>
     <string name="dialog_effect">효과 강도</string>
     <string name="pref_force_enable_text">V4A 강제 적용</string>
-    <string name="pref_force_enable_warn">"강제 적용을 사용하면 효과가 적용되지 않는 문제를 해결할 수 있지만, 일부 롬에서는 소리가 나지 않거나 배터리 누수같은 예상치 못한 결과를 얻을 수 있습니다. 유사 현상 발생시 이 기능을 해제하시기 바랍니다."</string>
+    <string name="pref_force_enable_warn">"강제 적용을 사용하면 효과가 적용되지 않는 문제를 해결할 수 있지만, 일부 롬에서는 소리가 나지 않거나 배터리 누수같은 예상치 못한 결과를 얻을 수 있습니다.\n문제가 발생할 경우 이 기능을 해제하세요."</string>
     <string name="pref_fx_master_title">마스터 스위치 - 헤드셋</string>
     <string name="pref_fx_master_summary_on">V4A-FX 켜짐</string>
     <string name="pref_fx_master_summary_off">V4A-FX 꺼짐</string>
@@ -51,15 +50,14 @@
     <string name="pref_viperddc_device">청음기기</string>
     <string name="pref_viperddc_device_manufacturer">제조사 선택</string>
     <string name="pref_viperddc_device_model">모델 선택</string>
-    <string name="pref_viperddc_tips">"참고: ViPER-DDC는 헤드폰 보정을 위한 리얼 하이파이 오디오 프로세서입니다. 현재 약 500종의 헤드폰을 지원하며 계속해서 더 많은 기기를 지원할 것입니다. 찾는 헤드폰이 목록에 없다면 새롭게 추가되기 전까지 이 기능은 비활성화해 주십시오."</string>
+    <string name="pref_viperddc_tips">"ViPER-DDC는 헤드폰 보정을 위한 리얼 하이파이 오디오 프로세서입니다. 현재 약 500종의 헤드폰을 지원하며 계속해서 더 많은 기기를 지원할 것입니다. 찾는 헤드폰이 목록에 없다면 새롭게 추가되기 전까지 이 기능을 비활성화 해주세요."</string>
     <string name="pref_vse_title">스펙트럼 확산</string>
     <string name="pref_vse_summary_on">스펙트럼 확산 켜짐</string>
     <string name="pref_vse_summary_off">스펙트럼 확산 꺼짐</string>
     <string name="pref_vse_enable">활성화</string>
     <string name="pref_vse_strength">강도</string>
     <string name="pref_vse_strength_title">강도 선택</string>
-    <string name="pref_vse_tips">"참고: 
-스펙트럼 확산은 손실 압축된 스펙트럼의 확장을 위한 리얼 하이파이 오디오 프로세서입니다. 이 기능은 손실 압축된 음악(mp3, aac, ogg 등)을 들을 때, 무손실에 가까운 느낌을 줍니다. 무손실 음원을 듣는 경우 이 기능을 해제하는 것이 좋습니다."</string>
+    <string name="pref_vse_tips">"스펙트럼 확산은 손실 압축된 스펙트럼의 확장을 위한 리얼 하이파이 오디오 프로세서입니다. 이 기능은 손실 압축된 음악(mp3, aac, ogg 등)을 들을 때, 무손실에 가까운 느낌을 줍니다. 무손실 음원을 듣는 경우 이 기능을 해제하는 것이 좋습니다."</string>
     <string name="pref_equalizer_title">FIR 이퀄라이저</string>
     <string name="pref_equalizer_summary_on">FIR이퀄라이저 켜짐</string>
     <string name="pref_equalizer_summary_off">FIR이퀄라이저 꺼짐</string>
@@ -188,10 +186,10 @@
     <string name="text_drvinst_acquireroot">"드라이버 설치 실패: V4A가 루트권한을 얻을 수 없습니다. 기기의 루팅 여부를 확인해 주십시오."</string>
     <string name="text_drvinst_busybox_not_installed">드라이버 설치 실패: 기기에 설치된 busybox를 찾을 수 없습니다.</string>
     <string name="text_drvinst_sdnotmounted">드라이버 설치 실패: 쓰기 가능한 외부 또는 내부 저장 장치를 찾을 수 없습니다.</string>
-    <string name="text_drvinst_dataioerr">드라이버 설치 실패: I/O 에러, 기기를 재시작 후 다시 시도하십시오.</string>
+    <string name="text_drvinst_dataioerr">드라이버 설치 실패: I/O 에러, 기기를 재시작 후 다시 시도하세요.</string>
     <string name="text_drvinst_cfg_unsup">드라이버 설치 실패: 지원하지 않는 시스템이나 롬.</string>
-    <string name="text_drvinst_failed">"드라이버 설치 실패: 설치된 busybox가 작동하지 않습니다. 이는 busybox가 손상됐거나 설치가 잘못되었음을 의미합니다. V4A의 작동에는 Stericson busybox가 필요합니다. 
-올바른 busybox가 설치되었다면 기기의 완전한 루팅 여부를 확인해 주십시오."</string>
+    <string name="text_drvinst_failed">"드라이버 설치 실패: 설치된 Busybox가 작동하지 않습니다. Busybox가 잘못 설치되었거나 손상되었습니다. V4A의 작동에는 Stericson busybox가 필요합니다.
+올바른 busybox가 설치되었다면 기기의 완전한 루팅 여부를 확인해 주세요."</string>
     <string name="text_modifybuildprop">"주의: 휴대전화에 저전력 오디오(LPA) 기능을 켜면 V4A의 오류를 유발할 수 있습니다. 자동으로 build.prop 파일을 수정하여 LPA를 비활성화할 수 있습니다. 단, build.prop 파일을 수정하면 시스템의 OTA기능을 사용할 수 없습니다. 
 작업을 진행하기 전 NANDROID 백업이나 데이터 백업을 적극 권장합니다. 지금 LPA기능을 비활성화 하시겠습니까?"</string>
     <string name="text_changelog">변경 이력</string>
@@ -250,29 +248,26 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
     <string name="navigation_drawer_close">탐색 서랍 닫기</string>
     <string name="navigation_toggle_drawer">서랍 보기로 전환</string>
     <string name="navigation_toggle_tabbed">탭 보기로 전환</string>
-    
-    
-    
-    
-    
-    <string name="pref_fx_master_title_help">ViPER4Android FX를 활성화합니다. CPU사용량 증가로 인해 배터리 소모가 증가할 수 있습니다. 무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요.</string>
-    <string name="pref_spkfx_master_title_help">ViPER4Android FX를 활성화합니다. CPU사용량 증가로 인해 배터리 소모가 증가할 수 있습니다. 무리한 설정은 스피커에 손상을 줄 수 있으니 주의하세요. 스피커 수명을 위해 활성화하는 것을 권장하지 않습니다.</string>
-    <string name="pref_bluetoothfx_master_title_help">ViPER4Android FX를 활성화합니다. CPU사용량 증가로 인해 배터리 소모가 증가할 수 있습니다. 무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요.</string>
-    <string name="pref_playback_title_help">입력 레벨의 값의 변동을 자동으로 조절해 출력을 일정하게 유지시키도록 도와줍니다.</string>
-    <string name="pref_convolver_title_help">음장 효과를 활성화 하면 CPU사용량이 증가해 배터리 소모가 커지며, 지연시간이 생겨 리듬게임 등 정밀한 터치타이밍이 필요한 작업에서 어려움을 겪을 수 있습니다.</string>
-    <string name="pref_base_title">베이스 컨트롤</string>
-     <string name="pref_clarity_title">선명도 처리모드</string> 
-    <string name="pref_bluetoothfx_master_title">마스터 스위치 - 블루투스 디바이스</string>
-    <string name="pref_usbfx_master_title">마스터 스위치 - USB/Dock</string>
-    <string name="fx_master_bass_help">무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요. 이 설정을 활성화 할 경우 귀의 피로도가 증가합니다.</string>
-    <string name="go_eq">FIR Equalizer</string>
-    
+
 
     
     
     <!-- custom -->
-    <string name="selinux_bold">도움말</string>
-    <string name="selinux_info">이 설정은 SELinux 권한을 무조건 Permissive로 변경합니다. 추후 Enforcing기능이 제거될 예정입니다.</string>
+
+    <!--도움말-->
+    <string name="master_title_help">ViPER4Android FX를 활성화합니다. 무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요</string>
+    <string name="spk_master_title_help">ViPER4Android FX를 활성화합니다. 무리한 설정은 스피커 수명에 악영향을 줄 수 있습니다</string>
+    <string name="pref_playback_title_help">입력 레벨의 값의 변동을 자동으로 조절해 출력을 일정하게 유지시키도록 도와줍니다</string>
+    <string name="pref_convolver_title_help">음장 효과를 활성화 하면 CPU사용량이 증가해 배터리 소모가 커지며, 지연시간이 생겨 리듬게임 등 정밀한 터치타이밍이 필요한 작업에서 어려움을 겪을 수 있습니다.</string>
+    <string name="pref_fireq_help">FIR Equalizer는 강력한 조절능력을 가진 주파수 조정 기능입니다. </string>
+
+    <string name="pref_base_title">베이스 컨트롤</string>
+    <string name="pref_clarity_title">선명도 처리모드</string>
+    <string name="pref_bluetoothfx_master_title">마스터 스위치 - 블루투스 디바이스</string>
+    <string name="pref_usbfx_master_title">마스터 스위치 - USB/Dock</string>
+    <string name="fx_master_bass_help">무리한 설정은 청력 및 음향기기에 손상을 줄 수 있으니 주의하세요. 이 설정을 활성화 할 경우 귀의 피로도가 상승합니다.</string>
+    <string name="go_eq">FIR Equalizer</string>
+
     <string name="terms"><b>계약조건 동의</b></string>
     <string name="terms_info">
 "
@@ -295,5 +290,7 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
 "</string>
 
 
-    <string name="settings">다른 설정</string>
+    <string name="OtherSettings">다른 설정</string>
+    <string name="settings">설정</string>
+    <string name="checkUpdateSummary">업데이트를 확인합니다</string>
 </resources>
